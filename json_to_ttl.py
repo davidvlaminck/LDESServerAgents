@@ -1,10 +1,13 @@
+import random
+import string
+import uuid
 from datetime import datetime, timedelta
 import json
 from pathlib import Path
 from typing import List
 
 from pydantic import BaseModel, Field, HttpUrl
-from rdflib import Graph, RDF, URIRef, Literal, ConjunctiveGraph
+from rdflib import Graph, RDF, URIRef, Literal, ConjunctiveGraph, Dataset, BNode
 
 
 class Agent(BaseModel):
@@ -21,22 +24,33 @@ if __name__ == '__main__':
     with open('/home/davidlinux/Documents/AWV/agents_full.json') as f:
         datax = json.load(f)
         agent_data = DataGraph(**datax)
-        g = Graph()
+        g = Dataset()
         for index, agent in enumerate(agent_data.graph):
-            h = Graph()
-            h.add((URIRef(agent.id), RDF.type, URIRef('http://purl.org/dc/terms/Agent')))
-            h.add((URIRef(agent.id), URIRef('https://tz.data.wegenenverkeer.be/ns/implementatieelement#Agent.voId'),
-                   Literal(agent.vo_id)))
-            h.add((URIRef(agent.id), URIRef('http://purl.org/dc/terms/Agent.naam'), Literal(agent.naam)))
-            h.add((URIRef(agent.id), URIRef('https://www.w3.org/TR/prov-o/#generatedAtTime'),
-                   Literal(datetime.utcnow() + timedelta(seconds=index))))
-            g += h
+            h = URIRef(agent.id)
+            g.add((URIRef(agent.id), RDF.type, URIRef('http://purl.org/dc/terms/Agent'), h))
+            g.add((URIRef(agent.id),
+                   URIRef('https://tz.data.wegenenverkeer.be/ns/implementatieelement#Agent.voId'),
+                   # Literal(agent.vo_id),
+                   Literal(uuid.uuid4()),
+                   h))
+            g.add((URIRef(agent.id), URIRef('http://purl.org/dc/terms/Agent.naam'), Literal(agent.naam), h))
+            g.add((URIRef(agent.id), URIRef('https://www.w3.org/TR/prov-o/#generatedAtTime'),
+                   Literal(datetime.utcnow() + timedelta(seconds=index)), h))
+            'http://purl.org/dc/terms/Agent.contactinfo'
+            contact_node = BNode()
+            g.add((URIRef(agent.id), URIRef('http://purl.org/dc/terms/Agent.contactinfo'), contact_node, h))
+            random_email = ''.join(random.choices(string.ascii_lowercase, k=5)) + '@' + ''.join(random.choices(string.ascii_lowercase, k=5)) + '.com'
+            g.add((contact_node, URIRef('http://schema.org/email'), Literal(random_email), h))
+            random_phone = '0' + ''.join(random.choices(string.digits, k=9))
+            g.add((contact_node, URIRef('http://schema.org/telephone'), Literal(random_phone), h))
+
         g.bind('tz', 'https://tz.data.wegenenverkeer.be/ns/implementatieelement#')
         g.bind('purl', 'http://purl.org/dc/terms/')
         g.bind('prov', 'https://www.w3.org/TR/prov-o/#')
         g.bind('asset', 'https://data.awvvlaanderen.be/id/asset/')
 
+        g.serialize(destination=Path('agents_full.nq'), format='nquads')
         g.serialize(destination=Path('agents_full.trig'), format='trig')
 
-        for s, p, o in g:
-            print(f'{s} {p} {o}')
+        for s, p, o, c in g:
+            print(f'{s} {p} {o} {c}')
