@@ -1,0 +1,1001 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix ns1: <https://www.w3.org/TR/prov-o/#> .
+@prefix ns2: <http://schema.org/> .
+@prefix ns3: <https://tz.data.wegenenverkeer.be/ns/implementatieelement#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix tree: <https://w3id.org/tree#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.com/ldes> a ldes:EventStream ;
+    tree:member <https://data.awvvlaanderen.be/id/asset/025dd477-a71b-4306-b3da-5a6afc1ade2a-cHVybDpBZ2VudA/2023-03-28T08:12:44.167480>,
+        <https://data.awvvlaanderen.be/id/asset/02f9c734-7b83-47e4-9b0f-1eda2d4215b9-cHVybDpBZ2VudA/2023-03-28T08:12:45.168126>,
+        <https://data.awvvlaanderen.be/id/asset/03b34e67-1629-44c9-9564-371ae3d689f4-cHVybDpBZ2VudA/2023-03-28T08:12:46.168451>,
+        <https://data.awvvlaanderen.be/id/asset/049aa9c2-519c-4ef1-a48f-64fbcf2dbb3f-cHVybDpBZ2VudA/2023-03-28T08:12:47.168712>,
+        <https://data.awvvlaanderen.be/id/asset/051b4b43-4ff3-4e54-8c80-f02ed6ff4935-cHVybDpBZ2VudA/2023-03-28T08:12:48.169044>,
+        <https://data.awvvlaanderen.be/id/asset/08dca621-bd96-4a0e-a5eb-951575dc16aa-cHVybDpBZ2VudA/2023-03-28T08:12:49.169406>,
+        <https://data.awvvlaanderen.be/id/asset/093bd491-33a4-47c1-a0be-ff0b71fb0e6e-cHVybDpBZ2VudA/2023-03-28T08:12:50.169705>,
+        <https://data.awvvlaanderen.be/id/asset/094ba6a1-0a76-4fbc-b0b2-ef77ba909932-cHVybDpBZ2VudA/2023-03-28T08:12:51.170066>,
+        <https://data.awvvlaanderen.be/id/asset/09952370-c6d9-4bac-97dd-0baa0c1a1658-cHVybDpBZ2VudA/2023-03-28T08:12:52.170317>,
+        <https://data.awvvlaanderen.be/id/asset/0aa2a235-2459-4df5-a3d0-5385354f294f-cHVybDpBZ2VudA/2023-03-28T08:12:53.170618>,
+        <https://data.awvvlaanderen.be/id/asset/0bff0597-7577-4145-8dcb-2a83b3f9c81b-cHVybDpBZ2VudA/2023-03-28T08:12:54.170847>,
+        <https://data.awvvlaanderen.be/id/asset/0c23fbda-6911-4a7a-be51-3a0f215a12ea-cHVybDpBZ2VudA/2023-03-28T08:12:55.171079>,
+        <https://data.awvvlaanderen.be/id/asset/0eeceb64-2e85-4c34-ae94-7e6a542ff781-cHVybDpBZ2VudA/2023-03-28T08:12:56.171302>,
+        <https://data.awvvlaanderen.be/id/asset/0efe45ab-0ca3-499f-a308-42d28799f589-cHVybDpBZ2VudA/2023-03-28T08:12:57.171522>,
+        <https://data.awvvlaanderen.be/id/asset/112b269c-c380-4dc4-82b5-424b56c63d22-cHVybDpBZ2VudA/2023-03-28T08:12:58.171747>,
+        <https://data.awvvlaanderen.be/id/asset/11efae3b-dc9b-451b-a79d-c2282cc2e71a-cHVybDpBZ2VudA/2023-03-28T08:12:59.171975>,
+        <https://data.awvvlaanderen.be/id/asset/125c4d0a-92e3-41f5-8f67-747e0a6befd3-cHVybDpBZ2VudA/2023-03-28T08:13:00.172192>,
+        <https://data.awvvlaanderen.be/id/asset/13833b12-fe48-4ea2-b023-3749528b8a1d-cHVybDpBZ2VudA/2023-03-28T08:13:01.172412>,
+        <https://data.awvvlaanderen.be/id/asset/16bad46a-5d4e-4209-8700-fb91b5cb2b2c-cHVybDpBZ2VudA/2023-03-28T08:13:02.172634>,
+        <https://data.awvvlaanderen.be/id/asset/1850e79a-de9f-4781-8ac9-b93196ef65d0-cHVybDpBZ2VudA/2023-03-28T08:13:03.172898>,
+        <https://data.awvvlaanderen.be/id/asset/1a7ac173-c2e4-4afd-b758-8288bc49d566-cHVybDpBZ2VudA/2023-03-28T08:13:04.173112>,
+        <https://data.awvvlaanderen.be/id/asset/1b05278a-9385-48d0-aa07-b8d8ebac3949-cHVybDpBZ2VudA/2023-03-28T08:13:05.173341>,
+        <https://data.awvvlaanderen.be/id/asset/1b900ff1-0587-40bf-8604-250eff767bf5-cHVybDpBZ2VudA/2023-03-28T08:13:06.173576>,
+        <https://data.awvvlaanderen.be/id/asset/1c0c6380-141b-42ca-bed0-9103815b37cc-cHVybDpBZ2VudA/2023-03-28T08:13:07.173795>,
+        <https://data.awvvlaanderen.be/id/asset/1cad7652-9d1c-4540-b069-227c5aceb331-cHVybDpBZ2VudA/2023-03-28T08:13:08.174040>,
+        <https://data.awvvlaanderen.be/id/asset/1e5d1ab3-9994-4eb2-a6e3-5a5bccbbec0f-cHVybDpBZ2VudA/2023-03-28T08:13:09.174272>,
+        <https://data.awvvlaanderen.be/id/asset/1e7d989f-74df-4bca-8a79-8219a1a7206c-cHVybDpBZ2VudA/2023-03-28T08:13:10.174484>,
+        <https://data.awvvlaanderen.be/id/asset/1fa3be6c-9bd2-4796-93c6-44547a91aebe-cHVybDpBZ2VudA/2023-03-28T08:13:11.174703>,
+        <https://data.awvvlaanderen.be/id/asset/212e2496-3473-4ed5-8c52-6f62e23ff093-cHVybDpBZ2VudA/2023-03-28T08:13:12.174911>,
+        <https://data.awvvlaanderen.be/id/asset/21b9b03f-5c29-4015-85aa-cacc1cd4fd94-cHVybDpBZ2VudA/2023-03-28T08:13:13.175129>,
+        <https://data.awvvlaanderen.be/id/asset/244c865b-eb42-4e31-aadb-b9149376f809-cHVybDpBZ2VudA/2023-03-28T08:13:14.175405>,
+        <https://data.awvvlaanderen.be/id/asset/25d862e6-bc88-40a9-8acc-1cc43d52e96c-cHVybDpBZ2VudA/2023-03-28T08:13:15.175700>,
+        <https://data.awvvlaanderen.be/id/asset/27f93dc7-6a52-4d0f-9710-84e8d0e0d1e7-cHVybDpBZ2VudA/2023-03-28T08:13:16.175907>,
+        <https://data.awvvlaanderen.be/id/asset/29e3889e-deea-4cc5-b8d6-e936467b9471-cHVybDpBZ2VudA/2023-03-28T08:13:17.176149>,
+        <https://data.awvvlaanderen.be/id/asset/2a90289b-8361-4497-b8b8-4e9cbd713f37-cHVybDpBZ2VudA/2023-03-28T08:13:18.176374>,
+        <https://data.awvvlaanderen.be/id/asset/2c140987-1127-4d76-abd7-d2cadcf27e1c-cHVybDpBZ2VudA/2023-03-28T08:13:19.176588>,
+        <https://data.awvvlaanderen.be/id/asset/2c64d718-906d-49c8-ae14-f0cde5fe6f76-cHVybDpBZ2VudA/2023-03-28T08:13:20.176804>,
+        <https://data.awvvlaanderen.be/id/asset/2ea95d94-6857-47e7-937a-fc07ca28cab9-cHVybDpBZ2VudA/2023-03-28T08:13:21.177023>,
+        <https://data.awvvlaanderen.be/id/asset/2ee4d0d6-9b77-47cd-8e45-47572ee51953-cHVybDpBZ2VudA/2023-03-28T08:13:22.177254>,
+        <https://data.awvvlaanderen.be/id/asset/2f137924-2096-4e19-bb65-48367e76f64e-cHVybDpBZ2VudA/2023-03-28T08:13:23.177469>,
+        <https://data.awvvlaanderen.be/id/asset/30ef3b89-7c36-4866-8ba7-71cac2ac116b-cHVybDpBZ2VudA/2023-03-28T08:13:24.177721>,
+        <https://data.awvvlaanderen.be/id/asset/32b1aff2-4988-4222-a62d-682d49f1cb9b-cHVybDpBZ2VudA/2023-03-28T08:13:25.177992>,
+        <https://data.awvvlaanderen.be/id/asset/337f4cac-4182-4b2c-bfb1-87656957347b-cHVybDpBZ2VudA/2023-03-28T08:13:26.178213>,
+        <https://data.awvvlaanderen.be/id/asset/34275068-c623-4185-9217-286f8f998b53-cHVybDpBZ2VudA/2023-03-28T08:13:27.178500>,
+        <https://data.awvvlaanderen.be/id/asset/351bdd6f-719c-41e1-af33-e19d2009c7bc-cHVybDpBZ2VudA/2023-03-28T08:13:28.178892>,
+        <https://data.awvvlaanderen.be/id/asset/35de1da1-8ef3-45bf-bf91-cdb23e0889cc-cHVybDpBZ2VudA/2023-03-28T08:13:29.179313>,
+        <https://data.awvvlaanderen.be/id/asset/37727929-01dc-4538-8bbc-5c9e47eedfd5-cHVybDpBZ2VudA/2023-03-28T08:13:30.179675>,
+        <https://data.awvvlaanderen.be/id/asset/394c2b5d-9da6-4dd2-a94e-aa51e0a92189-cHVybDpBZ2VudA/2023-03-28T08:13:31.179970>,
+        <https://data.awvvlaanderen.be/id/asset/3952409b-5a38-4d35-927f-d23530da2954-cHVybDpBZ2VudA/2023-03-28T08:13:32.180324>,
+        <https://data.awvvlaanderen.be/id/asset/397cd2c9-34b8-4a06-b03a-9b81357970b6-cHVybDpBZ2VudA/2023-03-28T08:13:33.180742>,
+        <https://data.awvvlaanderen.be/id/asset/3b20a81b-3110-4300-8cca-6a6b451f5805-cHVybDpBZ2VudA/2023-03-28T08:13:34.181147>,
+        <https://data.awvvlaanderen.be/id/asset/3c3cbc6b-28c5-4469-9cde-699d319b9938-cHVybDpBZ2VudA/2023-03-28T08:13:35.181632>,
+        <https://data.awvvlaanderen.be/id/asset/3c59a454-6a9b-4fa8-9227-8d223e9629d4-cHVybDpBZ2VudA/2023-03-28T08:13:36.181992>,
+        <https://data.awvvlaanderen.be/id/asset/3cfdbb24-4c27-4c9f-8545-61c2a6465bea-cHVybDpBZ2VudA/2023-03-28T08:13:37.182279>,
+        <https://data.awvvlaanderen.be/id/asset/3d08124a-b623-4723-be21-6ae16cca3fa6-cHVybDpBZ2VudA/2023-03-28T08:13:38.182497>,
+        <https://data.awvvlaanderen.be/id/asset/3d5adbf0-2d45-4fea-88ff-b5835459bd97-cHVybDpBZ2VudA/2023-03-28T08:13:39.182730>,
+        <https://data.awvvlaanderen.be/id/asset/3df2383c-f472-4823-9358-437237773942-cHVybDpBZ2VudA/2023-03-28T08:13:40.182937>,
+        <https://data.awvvlaanderen.be/id/asset/3e37e4f7-46fa-4216-ad81-452164214c0a-cHVybDpBZ2VudA/2023-03-28T08:13:41.183151>,
+        <https://data.awvvlaanderen.be/id/asset/3f556e59-c8f0-43ea-aed9-a79292e6e230-cHVybDpBZ2VudA/2023-03-28T08:13:42.183366>,
+        <https://data.awvvlaanderen.be/id/asset/40b334d8-a439-4752-9f10-6a00bdf9632e-cHVybDpBZ2VudA/2023-03-28T08:13:43.183574>,
+        <https://data.awvvlaanderen.be/id/asset/4135d43a-6c7f-4e68-ae62-e379afb75244-cHVybDpBZ2VudA/2023-03-28T08:13:44.183805>,
+        <https://data.awvvlaanderen.be/id/asset/422c0b96-8329-4c68-ab5f-c6527252386a-cHVybDpBZ2VudA/2023-03-28T08:13:45.184015>,
+        <https://data.awvvlaanderen.be/id/asset/43287cef-42a4-4623-be69-3750e92cae6a-cHVybDpBZ2VudA/2023-03-28T08:13:46.184280>,
+        <https://data.awvvlaanderen.be/id/asset/43c37e52-fa4b-4ea6-93f1-97a6123c5101-cHVybDpBZ2VudA/2023-03-28T08:13:47.184509>,
+        <https://data.awvvlaanderen.be/id/asset/4404a48c-95a3-40ba-a754-00555fda131a-cHVybDpBZ2VudA/2023-03-28T08:13:48.184725>,
+        <https://data.awvvlaanderen.be/id/asset/4428d142-ebb5-4ca6-8439-bca98da62279-cHVybDpBZ2VudA/2023-03-28T08:13:49.184953>,
+        <https://data.awvvlaanderen.be/id/asset/445786bd-30a9-48d3-8401-c2d88b3db36a-cHVybDpBZ2VudA/2023-03-28T08:13:50.185197>,
+        <https://data.awvvlaanderen.be/id/asset/454e0ffe-292e-4cba-8a28-edcda33ef14a-cHVybDpBZ2VudA/2023-03-28T08:13:51.185475>,
+        <https://data.awvvlaanderen.be/id/asset/45a0b663-c612-4f4c-a8cc-8363619a2232-cHVybDpBZ2VudA/2023-03-28T08:13:52.185700>,
+        <https://data.awvvlaanderen.be/id/asset/48cd870b-42ce-46cb-85fa-cc14452066d5-cHVybDpBZ2VudA/2023-03-28T08:13:53.185960>,
+        <https://data.awvvlaanderen.be/id/asset/4b6ba59e-58f1-4e29-bab0-173016275484-cHVybDpBZ2VudA/2023-03-28T08:13:54.186177>,
+        <https://data.awvvlaanderen.be/id/asset/4b8284ae-50d5-4151-bcdd-3444bace0738-cHVybDpBZ2VudA/2023-03-28T08:13:55.186395>,
+        <https://data.awvvlaanderen.be/id/asset/4ca799e2-f63c-4806-8115-b58bfcb0ab3e-cHVybDpBZ2VudA/2023-03-28T08:13:56.186647>,
+        <https://data.awvvlaanderen.be/id/asset/4cd41984-cd8d-4a51-9c69-13e1d3515f8e-cHVybDpBZ2VudA/2023-03-28T08:13:57.186864>,
+        <https://data.awvvlaanderen.be/id/asset/4da75061-c08c-49f4-9808-fd7dc32038c8-cHVybDpBZ2VudA/2023-03-28T08:13:58.187080>,
+        <https://data.awvvlaanderen.be/id/asset/4e77a650-03b7-4634-a0ad-2176c7f29f36-cHVybDpBZ2VudA/2023-03-28T08:13:59.187299>,
+        <https://data.awvvlaanderen.be/id/asset/4f19ed4e-7ad8-448a-90f2-a19977454280-cHVybDpBZ2VudA/2023-03-28T08:14:00.187510>,
+        <https://data.awvvlaanderen.be/id/asset/4fcb4046-c699-4d90-a111-bdc91a03df97-cHVybDpBZ2VudA/2023-03-28T08:14:01.187743>,
+        <https://data.awvvlaanderen.be/id/asset/514e4ba5-fdc3-4008-88eb-d826f40c53d9-cHVybDpBZ2VudA/2023-03-28T08:14:02.187962>,
+        <https://data.awvvlaanderen.be/id/asset/54e26468-de26-4af1-a176-db6d2d3a72c6-cHVybDpBZ2VudA/2023-03-28T08:14:03.188175>,
+        <https://data.awvvlaanderen.be/id/asset/54e3e789-a590-4f7a-bb31-daf4f48f822a-cHVybDpBZ2VudA/2023-03-28T08:14:04.188389>,
+        <https://data.awvvlaanderen.be/id/asset/5523438a-71ef-4091-af98-9390e1e41c35-cHVybDpBZ2VudA/2023-03-28T08:14:05.188606>,
+        <https://data.awvvlaanderen.be/id/asset/55e15b71-e94d-4062-a010-9013a14f2f66-cHVybDpBZ2VudA/2023-03-28T08:14:06.188814>,
+        <https://data.awvvlaanderen.be/id/asset/5d25382e-5828-4721-a2d6-84ff5b78d3a6-cHVybDpBZ2VudA/2023-03-28T08:14:07.189076>,
+        <https://data.awvvlaanderen.be/id/asset/5d40bdfb-d402-47ac-83f7-d84bf21a4bd6-cHVybDpBZ2VudA/2023-03-28T08:14:08.189296>,
+        <https://data.awvvlaanderen.be/id/asset/5e329aa5-785b-4bdd-a3c6-3bb591a546e6-cHVybDpBZ2VudA/2023-03-28T08:14:09.189668>,
+        <https://data.awvvlaanderen.be/id/asset/5ea6396a-e712-4f43-b97f-63a767bb2d32-cHVybDpBZ2VudA/2023-03-28T08:14:10.190100>,
+        <https://data.awvvlaanderen.be/id/asset/5ec32d23-62db-4617-8613-afbaa6d25acf-cHVybDpBZ2VudA/2023-03-28T08:14:11.190333>,
+        <https://data.awvvlaanderen.be/id/asset/5f3ca94a-2169-4601-aa21-b1b8af72dec2-cHVybDpBZ2VudA/2023-03-28T08:14:12.190547>,
+        <https://data.awvvlaanderen.be/id/asset/60367c05-0fd1-4200-9e95-d222df0f9744-cHVybDpBZ2VudA/2023-03-28T08:14:13.190766>,
+        <https://data.awvvlaanderen.be/id/asset/61a5157f-06fc-4745-ba63-0e80a708ee7d-cHVybDpBZ2VudA/2023-03-28T08:14:14.190984>,
+        <https://data.awvvlaanderen.be/id/asset/61f3aa0a-2491-4f0b-b68b-c74dcae9305d-cHVybDpBZ2VudA/2023-03-28T08:14:15.191198>,
+        <https://data.awvvlaanderen.be/id/asset/621d4ed4-b6e6-4db6-977b-e47ae65c5aa5-cHVybDpBZ2VudA/2023-03-28T08:14:16.191410>,
+        <https://data.awvvlaanderen.be/id/asset/635e537f-b640-471b-8a99-fbd054854965-cHVybDpBZ2VudA/2023-03-28T08:14:17.191667>,
+        <https://data.awvvlaanderen.be/id/asset/63668fc4-7990-4c57-9a39-afbb23a5d75c-cHVybDpBZ2VudA/2023-03-28T08:14:18.191887>,
+        <https://data.awvvlaanderen.be/id/asset/64b77fff-1c77-4dcf-b304-c84a2e05c180-cHVybDpBZ2VudA/2023-03-28T08:14:19.192103>,
+        <https://data.awvvlaanderen.be/id/asset/6563547a-180c-4714-99f8-3128ffe53191-cHVybDpBZ2VudA/2023-03-28T08:14:20.192320>,
+        <https://data.awvvlaanderen.be/id/asset/665df1af-3833-497f-a5a2-56ad0f96b637-cHVybDpBZ2VudA/2023-03-28T08:14:21.192533>,
+        <https://data.awvvlaanderen.be/id/asset/66a6c755-4921-49c0-bfec-e9207f368ecc-cHVybDpBZ2VudA/2023-03-28T08:14:22.192748> .
+
+<https://data.awvvlaanderen.be/id/asset/025dd477-a71b-4306-b3da-5a6afc1ade2a-cHVybDpBZ2VudA/2023-03-28T08:12:44.167480> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "pibzp@bvypo.be" ;
+            ns2:telephone "0267734746" ] ;
+    dct:Agent.naam "LP MIDDELKERKE" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/025dd477-a71b-4306-b3da-5a6afc1ade2a-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:12:44.167480+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "557419fa-0413-499d-9a04-b43a21043856" ;
+    ns1:generatedAtTime "2023-03-28T08:12:44.167480"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/02f9c734-7b83-47e4-9b0f-1eda2d4215b9-cHVybDpBZ2VudA/2023-03-28T08:12:45.168126> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "jyuls@xzcsp.be" ;
+            ns2:telephone "0868518700" ] ;
+    dct:Agent.naam "WATERWEGEN EN ZEEKANAAL NV" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/02f9c734-7b83-47e4-9b0f-1eda2d4215b9-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:12:45.168126+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "58648329-fe13-4ce7-a16a-c1e89941c9d4" ;
+    ns1:generatedAtTime "2023-03-28T08:12:45.168126"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/03b34e67-1629-44c9-9564-371ae3d689f4-cHVybDpBZ2VudA/2023-03-28T08:12:46.168451> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "cchba@kxlop.be" ;
+            ns2:telephone "0892768015" ] ;
+    dct:Agent.naam "AWV_312_KORTRIJK" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/03b34e67-1629-44c9-9564-371ae3d689f4-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:12:46.168451+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "fc8b969f-e79d-4c22-a10f-bf04575ac808" ;
+    ns1:generatedAtTime "2023-03-28T08:12:46.168451"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/049aa9c2-519c-4ef1-a48f-64fbcf2dbb3f-cHVybDpBZ2VudA/2023-03-28T08:12:47.168712> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "uoevt@tnzjh.be" ;
+            ns2:telephone "0020822277" ] ;
+    dct:Agent.naam "District West - Limburg" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/049aa9c2-519c-4ef1-a48f-64fbcf2dbb3f-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:12:47.168712+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "5ef8aad2-d868-4b07-8b33-0b9216a7f838" ;
+    ns1:generatedAtTime "2023-03-28T08:12:47.168712"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/051b4b43-4ff3-4e54-8c80-f02ed6ff4935-cHVybDpBZ2VudA/2023-03-28T08:12:48.169044> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "ufmuu@quazg.be" ;
+            ns2:telephone "0663598013" ] ;
+    dct:Agent.naam "LP KLUISBERGEN KRUISH OUDENAARDE WORT-PET ZINGEM" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/051b4b43-4ff3-4e54-8c80-f02ed6ff4935-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:12:48.169044+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "4f824c12-705d-4c98-ada7-48c07568377d" ;
+    ns1:generatedAtTime "2023-03-28T08:12:48.169044"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/08dca621-bd96-4a0e-a5eb-951575dc16aa-cHVybDpBZ2VudA/2023-03-28T08:12:49.169406> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "meeaa@jzxts.be" ;
+            ns2:telephone "0577559343" ] ;
+    dct:Agent.naam "ADMINISTRATIE WATERWEGEN EN ZEEWEZEN" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/08dca621-bd96-4a0e-a5eb-951575dc16aa-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:12:49.169406+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "228f2b1a-3c73-463a-980b-5bb7f22f92cc" ;
+    ns1:generatedAtTime "2023-03-28T08:12:49.169406"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/093bd491-33a4-47c1-a0be-ff0b71fb0e6e-cHVybDpBZ2VudA/2023-03-28T08:12:50.169705> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "mhalx@xwqis.be" ;
+            ns2:telephone "0563203356" ] ;
+    dct:Agent.naam "District Brugge" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/093bd491-33a4-47c1-a0be-ff0b71fb0e6e-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:12:50.169705+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "e7bf4303-12f1-47cc-b301-03d8df5f1abf" ;
+    ns1:generatedAtTime "2023-03-28T08:12:50.169705"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/094ba6a1-0a76-4fbc-b0b2-ef77ba909932-cHVybDpBZ2VudA/2023-03-28T08:12:51.170066> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "iifdq@llqqb.be" ;
+            ns2:telephone "0029508787" ] ;
+    dct:Agent.naam "EMT_WHW" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/094ba6a1-0a76-4fbc-b0b2-ef77ba909932-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:12:51.170066+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "cd139ce4-bc3d-4688-9662-f0dcdc1d5e52" ;
+    ns1:generatedAtTime "2023-03-28T08:12:51.170066"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/09952370-c6d9-4bac-97dd-0baa0c1a1658-cHVybDpBZ2VudA/2023-03-28T08:12:52.170317> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "ignwt@iafsd.be" ;
+            ns2:telephone "0819343398" ] ;
+    dct:Agent.naam "WLB districtwerking" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/09952370-c6d9-4bac-97dd-0baa0c1a1658-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:12:52.170317+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "f5a4e034-d341-43a3-bd11-fb1caf8f0428" ;
+    ns1:generatedAtTime "2023-03-28T08:12:52.170317"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/0aa2a235-2459-4df5-a3d0-5385354f294f-cHVybDpBZ2VudA/2023-03-28T08:12:53.170618> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "zzntj@yqsdr.be" ;
+            ns2:telephone "0436258711" ] ;
+    dct:Agent.naam "RIS" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/0aa2a235-2459-4df5-a3d0-5385354f294f-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:12:53.170618+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "88eceb2a-8453-47b8-b3a2-8cf573acaedb" ;
+    ns1:generatedAtTime "2023-03-28T08:12:53.170618"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/0bff0597-7577-4145-8dcb-2a83b3f9c81b-cHVybDpBZ2VudA/2023-03-28T08:12:54.170847> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "esayx@kixxi.be" ;
+            ns2:telephone "0001499984" ] ;
+    dct:Agent.naam "WOV_GENT" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/0bff0597-7577-4145-8dcb-2a83b3f9c81b-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:12:54.170847+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "9c6a756d-e65d-4809-b938-63a5cbe73f25" ;
+    ns1:generatedAtTime "2023-03-28T08:12:54.170847"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/0c23fbda-6911-4a7a-be51-3a0f215a12ea-cHVybDpBZ2VudA/2023-03-28T08:12:55.171079> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "nztft@tvwaw.be" ;
+            ns2:telephone "0717973650" ] ;
+    dct:Agent.naam "WERF Systeem" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/0c23fbda-6911-4a7a-be51-3a0f215a12ea-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:12:55.171079+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "37a4a170-01d7-4b83-8194-f230f98565f3" ;
+    ns1:generatedAtTime "2023-03-28T08:12:55.171079"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/0eeceb64-2e85-4c34-ae94-7e6a542ff781-cHVybDpBZ2VudA/2023-03-28T08:12:56.171302> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "vcwwk@cwecz.be" ;
+            ns2:telephone "0224651617" ] ;
+    dct:Agent.naam "AWV_412_OUDENAARDE" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/0eeceb64-2e85-4c34-ae94-7e6a542ff781-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:12:56.171302+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "d99ec56c-030e-4379-a96f-80f60e331aff" ;
+    ns1:generatedAtTime "2023-03-28T08:12:56.171302"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/0efe45ab-0ca3-499f-a308-42d28799f589-cHVybDpBZ2VudA/2023-03-28T08:12:57.171522> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "vgnek@ggqxx.be" ;
+            ns2:telephone "0472854756" ] ;
+    dct:Agent.naam "LP RONSE" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/0efe45ab-0ca3-499f-a308-42d28799f589-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:12:57.171522+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "845e7585-a2f0-4392-9bfc-a96e52bad64b" ;
+    ns1:generatedAtTime "2023-03-28T08:12:57.171522"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/112b269c-c380-4dc4-82b5-424b56c63d22-cHVybDpBZ2VudA/2023-03-28T08:12:58.171747> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "nxbqt@lzgzh.be" ;
+            ns2:telephone "0725592845" ] ;
+    dct:Agent.naam "akela Systeem" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/112b269c-c380-4dc4-82b5-424b56c63d22-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:12:58.171747+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "89d44b68-969f-4613-81e8-d56786d33b9e" ;
+    ns1:generatedAtTime "2023-03-28T08:12:58.171747"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/11efae3b-dc9b-451b-a79d-c2282cc2e71a-cHVybDpBZ2VudA/2023-03-28T08:12:59.171975> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "wiaqf@jjivn.be" ;
+            ns2:telephone "0574294222" ] ;
+    dct:Agent.naam "AWV_213_LEUVEN" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/11efae3b-dc9b-451b-a79d-c2282cc2e71a-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:12:59.171975+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "f51d3725-bdfc-44bf-962a-55cef627328f" ;
+    ns1:generatedAtTime "2023-03-28T08:12:59.171975"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/125c4d0a-92e3-41f5-8f67-747e0a6befd3-cHVybDpBZ2VudA/2023-03-28T08:13:00.172192> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "hhhlf@pkxym.be" ;
+            ns2:telephone "0878191893" ] ;
+    dct:Agent.naam "District Eeklo" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/125c4d0a-92e3-41f5-8f67-747e0a6befd3-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:00.172192+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "a910e3be-4c05-4c15-b814-308c7160ede6" ;
+    ns1:generatedAtTime "2023-03-28T08:13:00.172192"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/13833b12-fe48-4ea2-b023-3749528b8a1d-cHVybDpBZ2VudA/2023-03-28T08:13:01.172412> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "ekhap@pgeke.be" ;
+            ns2:telephone "0355519246" ] ;
+    dct:Agent.naam "GEMEENTE  ROESELARE" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/13833b12-fe48-4ea2-b023-3749528b8a1d-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:01.172412+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "83cfb7e4-c45d-4f2f-9c60-57c53ba032e0" ;
+    ns1:generatedAtTime "2023-03-28T08:13:01.172412"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/16bad46a-5d4e-4209-8700-fb91b5cb2b2c-cHVybDpBZ2VudA/2023-03-28T08:13:02.172634> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "qpujj@jhrfo.be" ;
+            ns2:telephone "0891117525" ] ;
+    dct:Agent.naam "Vlaamse Belastingdienst" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/16bad46a-5d4e-4209-8700-fb91b5cb2b2c-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:02.172634+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "682b83f5-9f35-43db-a9fa-06272aba8dce" ;
+    ns1:generatedAtTime "2023-03-28T08:13:02.172634"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/1850e79a-de9f-4781-8ac9-b93196ef65d0-cHVybDpBZ2VudA/2023-03-28T08:13:03.172898> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "dwzeu@algnm.be" ;
+            ns2:telephone "0865983586" ] ;
+    dct:Agent.naam "TramContractors" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/1850e79a-de9f-4781-8ac9-b93196ef65d0-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:03.172898+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "92d95a76-1a5c-4f24-8b46-fee0fb4edf53" ;
+    ns1:generatedAtTime "2023-03-28T08:13:03.172898"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/1a7ac173-c2e4-4afd-b758-8288bc49d566-cHVybDpBZ2VudA/2023-03-28T08:13:04.173112> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "kkmvm@fdmkg.be" ;
+            ns2:telephone "0761518050" ] ;
+    dct:Agent.naam "EMT_BMI" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/1a7ac173-c2e4-4afd-b758-8288bc49d566-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:04.173112+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "a43974ab-880b-4957-80d7-702cd95da886" ;
+    ns1:generatedAtTime "2023-03-28T08:13:04.173112"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/1b05278a-9385-48d0-aa07-b8d8ebac3949-cHVybDpBZ2VudA/2023-03-28T08:13:05.173341> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "cpmpz@khhev.be" ;
+            ns2:telephone "0736943878" ] ;
+    dct:Agent.naam "Vlaamse Belastingdienst" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/1b05278a-9385-48d0-aa07-b8d8ebac3949-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:05.173341+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "d9f99b62-4dce-4efd-8a57-23f0b5938b73" ;
+    ns1:generatedAtTime "2023-03-28T08:13:05.173341"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/1b900ff1-0587-40bf-8604-250eff767bf5-cHVybDpBZ2VudA/2023-03-28T08:13:06.173576> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "hobjf@wvvrf.be" ;
+            ns2:telephone "0550479765" ] ;
+    dct:Agent.naam "Agentschap Wegen en Verkeer" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/1b900ff1-0587-40bf-8604-250eff767bf5-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:06.173576+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "900d0a64-06a5-4584-be86-b6d871b3da97" ;
+    ns1:generatedAtTime "2023-03-28T08:13:06.173576"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/1c0c6380-141b-42ca-bed0-9103815b37cc-cHVybDpBZ2VudA/2023-03-28T08:13:07.173795> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "xkvkk@bacja.be" ;
+            ns2:telephone "0613069029" ] ;
+    dct:Agent.naam "District Geel" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/1c0c6380-141b-42ca-bed0-9103815b37cc-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:07.173795+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "021b78fa-3a48-4483-aa60-2f89d3b8d2c3" ;
+    ns1:generatedAtTime "2023-03-28T08:13:07.173795"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/1cad7652-9d1c-4540-b069-227c5aceb331-cHVybDpBZ2VudA/2023-03-28T08:13:08.174040> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "zdoip@cqpfm.be" ;
+            ns2:telephone "0980765887" ] ;
+    dct:Agent.naam "LokaalBestuur" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/1cad7652-9d1c-4540-b069-227c5aceb331-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:08.174040+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "1bda72f9-2a79-4827-8d58-6140e89d0c1a" ;
+    ns1:generatedAtTime "2023-03-28T08:13:08.174040"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/1e5d1ab3-9994-4eb2-a6e3-5a5bccbbec0f-cHVybDpBZ2VudA/2023-03-28T08:13:09.174272> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "srlph@nounw.be" ;
+            ns2:telephone "0044306764" ] ;
+    dct:Agent.naam "AWV_413_EEKLO" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/1e5d1ab3-9994-4eb2-a6e3-5a5bccbbec0f-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:09.174272+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "91e3ba35-3056-47f8-86a5-ac9011db8f66" ;
+    ns1:generatedAtTime "2023-03-28T08:13:09.174272"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/1e7d989f-74df-4bca-8a79-8219a1a7206c-cHVybDpBZ2VudA/2023-03-28T08:13:10.174484> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "pifco@kwhht.be" ;
+            ns2:telephone "0917641692" ] ;
+    dct:Agent.naam "elisa Systeem" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/1e7d989f-74df-4bca-8a79-8219a1a7206c-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:10.174484+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "bc3b6db2-a4e1-4e24-9d5d-cab1b723b381" ;
+    ns1:generatedAtTime "2023-03-28T08:13:10.174484"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/1fa3be6c-9bd2-4796-93c6-44547a91aebe-cHVybDpBZ2VudA/2023-03-28T08:13:11.174703> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "kbddr@cwpxr.be" ;
+            ns2:telephone "0226486966" ] ;
+    dct:Agent.naam "EMT_WHO" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/1fa3be6c-9bd2-4796-93c6-44547a91aebe-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:11.174703+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "d284c415-420e-45d1-b226-d84f30ab3c97" ;
+    ns1:generatedAtTime "2023-03-28T08:13:11.174703"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/212e2496-3473-4ed5-8c52-6f62e23ff093-cHVybDpBZ2VudA/2023-03-28T08:13:12.174911> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "hbdqu@pzple.be" ;
+            ns2:telephone "0109893581" ] ;
+    dct:Agent.naam "WATERWEGEN EN ZEEKANAAL NV" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/212e2496-3473-4ed5-8c52-6f62e23ff093-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:12.174911+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "124269b6-a3ec-4f63-aa94-8b93972600ba" ;
+    ns1:generatedAtTime "2023-03-28T08:13:12.174911"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/21b9b03f-5c29-4015-85aa-cacc1cd4fd94-cHVybDpBZ2VudA/2023-03-28T08:13:13.175129> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "xeber@siwjy.be" ;
+            ns2:telephone "0225460703" ] ;
+    dct:Agent.naam "District Aalst" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/21b9b03f-5c29-4015-85aa-cacc1cd4fd94-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:13.175129+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "20012b85-9e1e-47d8-a042-5969bbdae4e3" ;
+    ns1:generatedAtTime "2023-03-28T08:13:13.175129"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/244c865b-eb42-4e31-aadb-b9149376f809-cHVybDpBZ2VudA/2023-03-28T08:13:14.175405> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "miteq@foyhp.be" ;
+            ns2:telephone "0425399096" ] ;
+    dct:Agent.naam "STADSBESTUUR OOSTENDE" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/244c865b-eb42-4e31-aadb-b9149376f809-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:14.175405+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "4f9c8e9c-7c42-4d77-a5ed-1a5e094d5449" ;
+    ns1:generatedAtTime "2023-03-28T08:13:14.175405"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/25d862e6-bc88-40a9-8acc-1cc43d52e96c-cHVybDpBZ2VudA/2023-03-28T08:13:15.175700> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "lszqk@aycph.be" ;
+            ns2:telephone "0487703642" ] ;
+    dct:Agent.naam "VLAAMSE MILIEUMAATSCHAPPIJ" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/25d862e6-bc88-40a9-8acc-1cc43d52e96c-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:15.175700+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "4d630ba3-101d-44b8-b1b8-adfd861f0076" ;
+    ns1:generatedAtTime "2023-03-28T08:13:15.175700"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/27f93dc7-6a52-4d0f-9710-84e8d0e0d1e7-cHVybDpBZ2VudA/2023-03-28T08:13:16.175907> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "bgubc@rwnue.be" ;
+            ns2:telephone "0428115889" ] ;
+    dct:Agent.naam "WOV_OUD" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/27f93dc7-6a52-4d0f-9710-84e8d0e0d1e7-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:16.175907+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "17ec78ef-ae8e-42c2-9546-66db4e5c950d" ;
+    ns1:generatedAtTime "2023-03-28T08:13:16.175907"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/29e3889e-deea-4cc5-b8d6-e936467b9471-cHVybDpBZ2VudA/2023-03-28T08:13:17.176149> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "runxn@ucqei.be" ;
+            ns2:telephone "0455657058" ] ;
+    dct:Agent.naam "Stadsbestuur Zottegem" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/29e3889e-deea-4cc5-b8d6-e936467b9471-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:17.176149+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "d77fd0b3-603c-45f9-b9b3-0b23df3c469d" ;
+    ns1:generatedAtTime "2023-03-28T08:13:17.176149"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/2a90289b-8361-4497-b8b8-4e9cbd713f37-cHVybDpBZ2VudA/2023-03-28T08:13:18.176374> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "zppnt@ublox.be" ;
+            ns2:telephone "0061858857" ] ;
+    dct:Agent.naam "Technische Dienst Merelbeke" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/2a90289b-8361-4497-b8b8-4e9cbd713f37-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:18.176374+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "66747bff-bfda-4483-bd7f-55c5a065f27f" ;
+    ns1:generatedAtTime "2023-03-28T08:13:18.176374"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/2c140987-1127-4d76-abd7-d2cadcf27e1c-cHVybDpBZ2VudA/2023-03-28T08:13:19.176588> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "unqwn@ycwtu.be" ;
+            ns2:telephone "0801758397" ] ;
+    dct:Agent.naam "LP AALST" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/2c140987-1127-4d76-abd7-d2cadcf27e1c-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:19.176588+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "27072e2e-115d-4b92-95e2-3041c663144b" ;
+    ns1:generatedAtTime "2023-03-28T08:13:19.176588"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/2c64d718-906d-49c8-ae14-f0cde5fe6f76-cHVybDpBZ2VudA/2023-03-28T08:13:20.176804> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "ojtpl@yyvhj.be" ;
+            ns2:telephone "0174851244" ] ;
+    dct:Agent.naam "WOV_NIK" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/2c64d718-906d-49c8-ae14-f0cde5fe6f76-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:20.176804+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "0f4eb38f-4d16-4993-9a7e-9d2cb6546b8b" ;
+    ns1:generatedAtTime "2023-03-28T08:13:20.176804"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/2ea95d94-6857-47e7-937a-fc07ca28cab9-cHVybDpBZ2VudA/2023-03-28T08:13:21.177023> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "pkwmd@epokm.be" ;
+            ns2:telephone "0588364495" ] ;
+    dct:Agent.naam "Vlaams VerkeersCentrum" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/2ea95d94-6857-47e7-937a-fc07ca28cab9-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:21.177023+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "ffe0b0b8-ce4e-49b4-b54f-a45fb1294625" ;
+    ns1:generatedAtTime "2023-03-28T08:13:21.177023"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/2ee4d0d6-9b77-47cd-8e45-47572ee51953-cHVybDpBZ2VudA/2023-03-28T08:13:22.177254> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "mhwkb@jfolq.be" ;
+            ns2:telephone "0822847327" ] ;
+    dct:Agent.naam "THV Via Kempen" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/2ee4d0d6-9b77-47cd-8e45-47572ee51953-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:22.177254+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "37b08783-6256-4fca-bf6d-8267257e6de2" ;
+    ns1:generatedAtTime "2023-03-28T08:13:22.177254"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/2f137924-2096-4e19-bb65-48367e76f64e-cHVybDpBZ2VudA/2023-03-28T08:13:23.177469> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "wpiqj@kiond.be" ;
+            ns2:telephone "0102452673" ] ;
+    dct:Agent.naam "LP BEERNEM OOSTKAMP ZEDELGEM" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/2f137924-2096-4e19-bb65-48367e76f64e-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:23.177469+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "68cae215-59ac-47be-a821-15247a0f2d2e" ;
+    ns1:generatedAtTime "2023-03-28T08:13:23.177469"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/30ef3b89-7c36-4866-8ba7-71cac2ac116b-cHVybDpBZ2VudA/2023-03-28T08:13:24.177721> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "bgpee@nitpf.be" ;
+            ns2:telephone "0192007150" ] ;
+    dct:Agent.naam "GEMEENTE  ZONNEBEKE" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/30ef3b89-7c36-4866-8ba7-71cac2ac116b-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:24.177721+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "057557f6-efc2-41d9-8fe2-4a1a0cee89ca" ;
+    ns1:generatedAtTime "2023-03-28T08:13:24.177721"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/32b1aff2-4988-4222-a62d-682d49f1cb9b-cHVybDpBZ2VudA/2023-03-28T08:13:25.177992> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "dtyrm@dwnpt.be" ;
+            ns2:telephone "0623679636" ] ;
+    dct:Agent.naam "PVE WVL" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/32b1aff2-4988-4222-a62d-682d49f1cb9b-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:25.177992+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "66591cad-c993-4b86-a0d6-6f0a9ea6f2bd" ;
+    ns1:generatedAtTime "2023-03-28T08:13:25.177992"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/337f4cac-4182-4b2c-bfb1-87656957347b-cHVybDpBZ2VudA/2023-03-28T08:13:26.178213> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "yehpa@olnsj.be" ;
+            ns2:telephone "0269862445" ] ;
+    dct:Agent.naam "PPS_DIABOLO" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/337f4cac-4182-4b2c-bfb1-87656957347b-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:26.178213+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "f5284ec4-afe7-4a42-9a7e-fdb3f3805d98" ;
+    ns1:generatedAtTime "2023-03-28T08:13:26.178213"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/34275068-c623-4185-9217-286f8f998b53-cHVybDpBZ2VudA/2023-03-28T08:13:27.178500> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "odewc@fwpde.be" ;
+            ns2:telephone "0986545447" ] ;
+    dct:Agent.naam "LP ROESELARE IZEGEM HOOGLEDE" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/34275068-c623-4185-9217-286f8f998b53-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:27.178500+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "0e74670f-b69a-468c-a723-a0afd2ee6fc1" ;
+    ns1:generatedAtTime "2023-03-28T08:13:27.178500"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/351bdd6f-719c-41e1-af33-e19d2009c7bc-cHVybDpBZ2VudA/2023-03-28T08:13:28.178892> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "orpln@rhvsx.be" ;
+            ns2:telephone "0955841055" ] ;
+    dct:Agent.naam "District Vilvoorde-autosnelwegen" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/351bdd6f-719c-41e1-af33-e19d2009c7bc-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:28.178892+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "d4f7a6f3-8c32-4bf8-89ef-b278b2a4abf8" ;
+    ns1:generatedAtTime "2023-03-28T08:13:28.178892"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/35de1da1-8ef3-45bf-bf91-cdb23e0889cc-cHVybDpBZ2VudA/2023-03-28T08:13:29.179313> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "pkhcy@twejf.be" ;
+            ns2:telephone "0083963968" ] ;
+    dct:Agent.naam "EMT_TELE" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/35de1da1-8ef3-45bf-bf91-cdb23e0889cc-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:29.179313+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "4be59ff9-1f2a-4d10-99d5-7e59fd94e482" ;
+    ns1:generatedAtTime "2023-03-28T08:13:29.179313"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/37727929-01dc-4538-8bbc-5c9e47eedfd5-cHVybDpBZ2VudA/2023-03-28T08:13:30.179675> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "vxbiw@bhljn.be" ;
+            ns2:telephone "0553528626" ] ;
+    dct:Agent.naam "LP DESTELBERGEN MELLE MERELBEKE OOSTERZELE" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/37727929-01dc-4538-8bbc-5c9e47eedfd5-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:30.179675+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "bb352c51-e431-4a6e-b772-e8d452466870" ;
+    ns1:generatedAtTime "2023-03-28T08:13:30.179675"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/394c2b5d-9da6-4dd2-a94e-aa51e0a92189-cHVybDpBZ2VudA/2023-03-28T08:13:31.179970> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "fwvdh@djgsk.be" ;
+            ns2:telephone "0118243173" ] ;
+    dct:Agent.naam "District Centraal - Limburg" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/394c2b5d-9da6-4dd2-a94e-aa51e0a92189-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:31.179970+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "d938bf48-9a88-486c-846a-433e4eae3461" ;
+    ns1:generatedAtTime "2023-03-28T08:13:31.179970"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/3952409b-5a38-4d35-927f-d23530da2954-cHVybDpBZ2VudA/2023-03-28T08:13:32.180324> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "iemwb@ylxxd.be" ;
+            ns2:telephone "0289038600" ] ;
+    dct:Agent.naam "ABS Systemen" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/3952409b-5a38-4d35-927f-d23530da2954-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:32.180324+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "b07a3021-681c-4b25-bb1e-4d5f2df0cbff" ;
+    ns1:generatedAtTime "2023-03-28T08:13:32.180324"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/397cd2c9-34b8-4a06-b03a-9b81357970b6-cHVybDpBZ2VudA/2023-03-28T08:13:33.180742> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "zgzsn@uaeln.be" ;
+            ns2:telephone "0045511446" ] ;
+    dct:Agent.naam "AWV_EW_VB" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/397cd2c9-34b8-4a06-b03a-9b81357970b6-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:33.180742+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "fb003231-9ace-485b-a0b5-0efbe9673134" ;
+    ns1:generatedAtTime "2023-03-28T08:13:33.180742"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/3b20a81b-3110-4300-8cca-6a6b451f5805-cHVybDpBZ2VudA/2023-03-28T08:13:34.181147> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "uufye@fgehf.be" ;
+            ns2:telephone "0492977453" ] ;
+    dct:Agent.naam "DIENST VAN HET ALBERTKANAAL Hasselt" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/3b20a81b-3110-4300-8cca-6a6b451f5805-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:34.181147+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "73146795-20f3-4346-bbab-84549886b902" ;
+    ns1:generatedAtTime "2023-03-28T08:13:34.181147"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/3c3cbc6b-28c5-4469-9cde-699d319b9938-cHVybDpBZ2VudA/2023-03-28T08:13:35.181632> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "ojijq@batbm.be" ;
+            ns2:telephone "0722565480" ] ;
+    dct:Agent.naam "AWV_214_AARSCHOT" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/3c3cbc6b-28c5-4469-9cde-699d319b9938-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:35.181632+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "61148ded-56fa-43e7-8127-ae7a39b861c9" ;
+    ns1:generatedAtTime "2023-03-28T08:13:35.181632"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/3c59a454-6a9b-4fa8-9227-8d223e9629d4-cHVybDpBZ2VudA/2023-03-28T08:13:36.181992> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "teaey@fjdsj.be" ;
+            ns2:telephone "0710560497" ] ;
+    dct:Agent.naam "WATERWEGEN EN ZEEKANAAL NV" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/3c59a454-6a9b-4fa8-9227-8d223e9629d4-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:36.181992+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "09d9e302-1640-44b6-8fa5-e4b8a96ce646" ;
+    ns1:generatedAtTime "2023-03-28T08:13:36.181992"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/3cfdbb24-4c27-4c9f-8545-61c2a6465bea-cHVybDpBZ2VudA/2023-03-28T08:13:37.182279> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "wsfdo@aokgq.be" ;
+            ns2:telephone "0049228018" ] ;
+    dct:Agent.naam "MAATSCHAPPIJ VAN DE BRUGSE ZEEVAARTINRICHTINGEN" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/3cfdbb24-4c27-4c9f-8545-61c2a6465bea-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:37.182279+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "31e0815b-9510-4a3b-9eea-6e78dc654a59" ;
+    ns1:generatedAtTime "2023-03-28T08:13:37.182279"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/3d08124a-b623-4723-be21-6ae16cca3fa6-cHVybDpBZ2VudA/2023-03-28T08:13:38.182497> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "gbljg@xyzpt.be" ;
+            ns2:telephone "0084933191" ] ;
+    dct:Agent.naam "HAVENBEDRIJF ANTWERPEN" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/3d08124a-b623-4723-be21-6ae16cca3fa6-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:38.182497+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "6fc345d3-ccfd-4a13-aa27-99acb89f9ad3" ;
+    ns1:generatedAtTime "2023-03-28T08:13:38.182497"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/3d5adbf0-2d45-4fea-88ff-b5835459bd97-cHVybDpBZ2VudA/2023-03-28T08:13:39.182730> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "zkfkx@kxhkd.be" ;
+            ns2:telephone "0335274155" ] ;
+    dct:Agent.naam "AFDELING WEGEN WEST-VLAANDEREN" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/3d5adbf0-2d45-4fea-88ff-b5835459bd97-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:39.182730+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "3ae1dfed-25d9-4da4-9dda-398aded1a9e0" ;
+    ns1:generatedAtTime "2023-03-28T08:13:39.182730"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/3df2383c-f472-4823-9358-437237773942-cHVybDpBZ2VudA/2023-03-28T08:13:40.182937> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "dpwbx@jcqkj.be" ;
+            ns2:telephone "0195978863" ] ;
+    dct:Agent.naam "GEMEENTEBESTUUR SINT NIKLAAS" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/3df2383c-f472-4823-9358-437237773942-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:40.182937+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "b3527ab6-dda0-4c63-9347-992be303adff" ;
+    ns1:generatedAtTime "2023-03-28T08:13:40.182937"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/3e37e4f7-46fa-4216-ad81-452164214c0a-cHVybDpBZ2VudA/2023-03-28T08:13:41.183151> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "njlfu@juesq.be" ;
+            ns2:telephone "0065871816" ] ;
+    dct:Agent.naam "ADMINISTRATIE WATERWEGEN EN ZEEWEZEN" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/3e37e4f7-46fa-4216-ad81-452164214c0a-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:41.183151+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "a52baff4-f5e1-48e0-90ba-322df2dc87d3" ;
+    ns1:generatedAtTime "2023-03-28T08:13:41.183151"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/3f556e59-c8f0-43ea-aed9-a79292e6e230-cHVybDpBZ2VudA/2023-03-28T08:13:42.183366> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "tlzlu@tzokm.be" ;
+            ns2:telephone "0637176057" ] ;
+    dct:Agent.naam "AFDELING WEGEN LIMBURG" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/3f556e59-c8f0-43ea-aed9-a79292e6e230-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:42.183366+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "9cd06d63-83e8-465e-8b1a-b739c8fb0107" ;
+    ns1:generatedAtTime "2023-03-28T08:13:42.183366"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/40b334d8-a439-4752-9f10-6a00bdf9632e-cHVybDpBZ2VudA/2023-03-28T08:13:43.183574> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "zmfpg@gzipb.be" ;
+            ns2:telephone "0654654442" ] ;
+    dct:Agent.naam "PZ VOORKEMPEN" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/40b334d8-a439-4752-9f10-6a00bdf9632e-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:43.183574+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "bae42fd9-c3d5-4e50-8a40-4f5c75830cfa" ;
+    ns1:generatedAtTime "2023-03-28T08:13:43.183574"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/4135d43a-6c7f-4e68-ae62-e379afb75244-cHVybDpBZ2VudA/2023-03-28T08:13:44.183805> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "dgfvq@ewtmr.be" ;
+            ns2:telephone "0045611353" ] ;
+    dct:Agent.naam "AWV_211_HALLE" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/4135d43a-6c7f-4e68-ae62-e379afb75244-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:44.183805+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "ce5ebd05-2cd8-4a40-9fc1-429103f9c8ac" ;
+    ns1:generatedAtTime "2023-03-28T08:13:44.183805"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/422c0b96-8329-4c68-ab5f-c6527252386a-cHVybDpBZ2VudA/2023-03-28T08:13:45.184015> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "gtqei@nfoii.be" ;
+            ns2:telephone "0995328471" ] ;
+    dct:Agent.naam "AWV_718_OOST-LIMBURG" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/422c0b96-8329-4c68-ab5f-c6527252386a-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:45.184015+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "5d48b99d-e62d-4f97-98d7-9f0850f3cdf0" ;
+    ns1:generatedAtTime "2023-03-28T08:13:45.184015"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/43287cef-42a4-4623-be69-3750e92cae6a-cHVybDpBZ2VudA/2023-03-28T08:13:46.184280> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "qdccf@unnbj.be" ;
+            ns2:telephone "0229475708" ] ;
+    dct:Agent.naam "District Ieper" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/43287cef-42a4-4623-be69-3750e92cae6a-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:46.184280+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "b4a62999-5f47-48e0-9a40-2b0f89bfb491" ;
+    ns1:generatedAtTime "2023-03-28T08:13:46.184280"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/43c37e52-fa4b-4ea6-93f1-97a6123c5101-cHVybDpBZ2VudA/2023-03-28T08:13:47.184509> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "svkfz@xaabe.be" ;
+            ns2:telephone "0953365934" ] ;
+    dct:Agent.naam "DIENST VAN HET ALBERTKANAAL Antwerpen" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/43c37e52-fa4b-4ea6-93f1-97a6123c5101-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:47.184509+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "bed4580c-08fa-40cb-8fbd-8880c14ace5d" ;
+    ns1:generatedAtTime "2023-03-28T08:13:47.184509"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/4404a48c-95a3-40ba-a754-00555fda131a-cHVybDpBZ2VudA/2023-03-28T08:13:48.184725> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "hvcnj@yrirh.be" ;
+            ns2:telephone "0934626602" ] ;
+    dct:Agent.naam "WERKHUIS MECHELEN" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/4404a48c-95a3-40ba-a754-00555fda131a-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:48.184725+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "5f84c5a2-3fd2-4664-a8df-70fdaa439fa3" ;
+    ns1:generatedAtTime "2023-03-28T08:13:48.184725"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/4428d142-ebb5-4ca6-8439-bca98da62279-cHVybDpBZ2VudA/2023-03-28T08:13:49.184953> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "hawdf@xojqp.be" ;
+            ns2:telephone "0076534444" ] ;
+    dct:Agent.naam "EMT_KUNST_O" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/4428d142-ebb5-4ca6-8439-bca98da62279-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:49.184953+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "62b10eaf-e390-468b-9083-2346cb4023b0" ;
+    ns1:generatedAtTime "2023-03-28T08:13:49.184953"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/445786bd-30a9-48d3-8401-c2d88b3db36a-cHVybDpBZ2VudA/2023-03-28T08:13:50.185197> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "wpoos@eqwgp.be" ;
+            ns2:telephone "0988931584" ] ;
+    dct:Agent.naam "AWV_114_GEEL" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/445786bd-30a9-48d3-8401-c2d88b3db36a-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:50.185197+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "d53bbc70-9d7d-4e94-93bd-424d9427bef7" ;
+    ns1:generatedAtTime "2023-03-28T08:13:50.185197"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/454e0ffe-292e-4cba-8a28-edcda33ef14a-cHVybDpBZ2VudA/2023-03-28T08:13:51.185475> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "rpjxq@tejtn.be" ;
+            ns2:telephone "0227070886" ] ;
+    dct:Agent.naam "Wachtdienst Verkeer Antwerpen" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/454e0ffe-292e-4cba-8a28-edcda33ef14a-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:51.185475+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "281d922a-fe39-4f25-9a72-664e89ffe59c" ;
+    ns1:generatedAtTime "2023-03-28T08:13:51.185475"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/45a0b663-c612-4f4c-a8cc-8363619a2232-cHVybDpBZ2VudA/2023-03-28T08:13:52.185700> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "hwvkg@qxppw.be" ;
+            ns2:telephone "0589395412" ] ;
+    dct:Agent.naam "LP ASSENEDE EVERGEM" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/45a0b663-c612-4f4c-a8cc-8363619a2232-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:52.185700+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "601c9ca6-8d0a-4e60-b8e1-b1c3902e1f81" ;
+    ns1:generatedAtTime "2023-03-28T08:13:52.185700"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/48cd870b-42ce-46cb-85fa-cc14452066d5-cHVybDpBZ2VudA/2023-03-28T08:13:53.185960> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "pseyd@kyjbl.be" ;
+            ns2:telephone "0162912773" ] ;
+    dct:Agent.naam "LP MALDEGEM" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/48cd870b-42ce-46cb-85fa-cc14452066d5-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:53.185960+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "84532f54-edb2-4d19-b8ee-8c01fef0fcd8" ;
+    ns1:generatedAtTime "2023-03-28T08:13:53.185960"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/4b6ba59e-58f1-4e29-bab0-173016275484-cHVybDpBZ2VudA/2023-03-28T08:13:54.186177> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "ktwgg@wqlxd.be" ;
+            ns2:telephone "0920276832" ] ;
+    dct:Agent.naam "GEMEENTEBESTUUR OOSTKAMP" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/4b6ba59e-58f1-4e29-bab0-173016275484-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:54.186177+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "2b47d749-5144-4763-a460-93bee4a11cd3" ;
+    ns1:generatedAtTime "2023-03-28T08:13:54.186177"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/4b8284ae-50d5-4151-bcdd-3444bace0738-cHVybDpBZ2VudA/2023-03-28T08:13:55.186395> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "dzwfn@rbtni.be" ;
+            ns2:telephone "0442350052" ] ;
+    dct:Agent.naam "Derde partij buiten Vl. overheid" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/4b8284ae-50d5-4151-bcdd-3444bace0738-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:55.186395+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "95e28eac-d20e-4a3b-995d-9bbc3850cfd5" ;
+    ns1:generatedAtTime "2023-03-28T08:13:55.186395"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/4ca799e2-f63c-4806-8115-b58bfcb0ab3e-cHVybDpBZ2VudA/2023-03-28T08:13:56.186647> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "rjbap@eavkn.be" ;
+            ns2:telephone "0155922792" ] ;
+    dct:Agent.naam "WA districtwerking" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/4ca799e2-f63c-4806-8115-b58bfcb0ab3e-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:56.186647+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "5bf78309-8a9d-43b5-8905-7ef967c64300" ;
+    ns1:generatedAtTime "2023-03-28T08:13:56.186647"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/4cd41984-cd8d-4a51-9c69-13e1d3515f8e-cHVybDpBZ2VudA/2023-03-28T08:13:57.186864> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "eybrz@nljxv.be" ;
+            ns2:telephone "0956138911" ] ;
+    dct:Agent.naam "Dep. Mobiliteit en Openbare Werken" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/4cd41984-cd8d-4a51-9c69-13e1d3515f8e-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:57.186864+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "8ddf89ac-4d35-42f1-af06-712ff5e21763" ;
+    ns1:generatedAtTime "2023-03-28T08:13:57.186864"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/4da75061-c08c-49f4-9808-fd7dc32038c8-cHVybDpBZ2VudA/2023-03-28T08:13:58.187080> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "lvbnl@qsvqx.be" ;
+            ns2:telephone "0676369388" ] ;
+    dct:Agent.naam "AWV_112_PUURS" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/4da75061-c08c-49f4-9808-fd7dc32038c8-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:58.187080+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "9f4d44b3-cff8-40a9-9b58-299d157fa38f" ;
+    ns1:generatedAtTime "2023-03-28T08:13:58.187080"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/4e77a650-03b7-4634-a0ad-2176c7f29f36-cHVybDpBZ2VudA/2023-03-28T08:13:59.187299> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "txsjz@fkvxz.be" ;
+            ns2:telephone "0980270720" ] ;
+    dct:Agent.naam "ADMINISTRATIE WATERWEGEN EN ZEEWEZEN" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/4e77a650-03b7-4634-a0ad-2176c7f29f36-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:13:59.187299+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "3db2dd13-9391-40f1-8a8a-cdbb458a8a60" ;
+    ns1:generatedAtTime "2023-03-28T08:13:59.187299"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/4f19ed4e-7ad8-448a-90f2-a19977454280-cHVybDpBZ2VudA/2023-03-28T08:14:00.187510> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "embtb@dlnqq.be" ;
+            ns2:telephone "0527843810" ] ;
+    dct:Agent.naam "ABBAMelda test" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/4f19ed4e-7ad8-448a-90f2-a19977454280-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:00.187510+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "63cdb4ff-57d2-491a-a7cf-9f5597291c0c" ;
+    ns1:generatedAtTime "2023-03-28T08:14:00.187510"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/4fcb4046-c699-4d90-a111-bdc91a03df97-cHVybDpBZ2VudA/2023-03-28T08:14:01.187743> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "uhjso@tvgxj.be" ;
+            ns2:telephone "0947734153" ] ;
+    dct:Agent.naam "LP BERLARE ZELE" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/4fcb4046-c699-4d90-a111-bdc91a03df97-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:01.187743+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "3ebf77f6-fb5a-4902-b09b-7ca627720bf2" ;
+    ns1:generatedAtTime "2023-03-28T08:14:01.187743"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/514e4ba5-fdc3-4008-88eb-d826f40c53d9-cHVybDpBZ2VudA/2023-03-28T08:14:02.187962> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "irthd@figqi.be" ;
+            ns2:telephone "0934699006" ] ;
+    dct:Agent.naam "District 312 Autosnelwegen Zuid" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/514e4ba5-fdc3-4008-88eb-d826f40c53d9-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:02.187962+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "c3643b98-cf0e-402f-9c6b-08c29a06594e" ;
+    ns1:generatedAtTime "2023-03-28T08:14:02.187962"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/54e26468-de26-4af1-a176-db6d2d3a72c6-cHVybDpBZ2VudA/2023-03-28T08:14:03.188175> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "fclxa@uqbiq.be" ;
+            ns2:telephone "0416501318" ] ;
+    dct:Agent.naam "Northern DIALINK nv" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/54e26468-de26-4af1-a176-db6d2d3a72c6-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:03.188175+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "a3e8e704-5708-40a3-bb6c-a9ba9aa6a866" ;
+    ns1:generatedAtTime "2023-03-28T08:14:03.188175"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/54e3e789-a590-4f7a-bb31-daf4f48f822a-cHVybDpBZ2VudA/2023-03-28T08:14:04.188389> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "dhvua@uyuzk.be" ;
+            ns2:telephone "0977470034" ] ;
+    dct:Agent.naam "AWV_212_VILVOORDE" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/54e3e789-a590-4f7a-bb31-daf4f48f822a-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:04.188389+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "af9fda26-4b75-41ae-87ec-a2044ea2cf12" ;
+    ns1:generatedAtTime "2023-03-28T08:14:04.188389"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/5523438a-71ef-4091-af98-9390e1e41c35-cHVybDpBZ2VudA/2023-03-28T08:14:05.188606> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "qeftd@hwyrh.be" ;
+            ns2:telephone "0471592260" ] ;
+    dct:Agent.naam "EMT_KUNST_W" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/5523438a-71ef-4091-af98-9390e1e41c35-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:05.188606+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "b6d24e7c-dcf1-40d7-a9d1-43530798bad3" ;
+    ns1:generatedAtTime "2023-03-28T08:14:05.188606"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/55e15b71-e94d-4062-a010-9013a14f2f66-cHVybDpBZ2VudA/2023-03-28T08:14:06.188814> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "ahxsb@jepbs.be" ;
+            ns2:telephone "0380944702" ] ;
+    dct:Agent.naam "BELGACOM CUSTOMER OPERATIONS AREA BRUSSELS" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/55e15b71-e94d-4062-a010-9013a14f2f66-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:06.188814+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "910a92cf-2a8d-4a88-90e8-76393a89975b" ;
+    ns1:generatedAtTime "2023-03-28T08:14:06.188814"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/5d25382e-5828-4721-a2d6-84ff5b78d3a6-cHVybDpBZ2VudA/2023-03-28T08:14:07.189076> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "yobxo@zicpa.be" ;
+            ns2:telephone "0896336032" ] ;
+    dct:Agent.naam "EMT_WHG" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/5d25382e-5828-4721-a2d6-84ff5b78d3a6-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:07.189076+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "871720eb-a031-46ee-bd5a-6e3982c55b36" ;
+    ns1:generatedAtTime "2023-03-28T08:14:07.189076"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/5d40bdfb-d402-47ac-83f7-d84bf21a4bd6-cHVybDpBZ2VudA/2023-03-28T08:14:08.189296> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "arwhq@dksxu.be" ;
+            ns2:telephone "0388779305" ] ;
+    dct:Agent.naam "GEMEENTE  EVERGEM" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/5d40bdfb-d402-47ac-83f7-d84bf21a4bd6-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:08.189296+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "021888c0-5ac7-44ff-ae5d-52093a36d4d3" ;
+    ns1:generatedAtTime "2023-03-28T08:14:08.189296"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/5e329aa5-785b-4bdd-a3c6-3bb591a546e6-cHVybDpBZ2VudA/2023-03-28T08:14:09.189668> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "oubxa@doigp.be" ;
+            ns2:telephone "0156515016" ] ;
+    dct:Agent.naam "Stad Antwerpen" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/5e329aa5-785b-4bdd-a3c6-3bb591a546e6-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:09.189668+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "9d754b18-94b0-45c2-b347-19a63f1415af" ;
+    ns1:generatedAtTime "2023-03-28T08:14:09.189668"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/5ea6396a-e712-4f43-b97f-63a767bb2d32-cHVybDpBZ2VudA/2023-03-28T08:14:10.190100> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "riafi@ciazp.be" ;
+            ns2:telephone "0085626883" ] ;
+    dct:Agent.naam "EMT_WHA" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/5ea6396a-e712-4f43-b97f-63a767bb2d32-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:10.190100+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "a1bd3045-5b1f-43c2-b705-48a2f8cf408b" ;
+    ns1:generatedAtTime "2023-03-28T08:14:10.190100"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/5ec32d23-62db-4617-8613-afbaa6d25acf-cHVybDpBZ2VudA/2023-03-28T08:14:11.190333> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "pbvcd@tzzap.be" ;
+            ns2:telephone "0528563338" ] ;
+    dct:Agent.naam "District 311 Autosnelwegen Noord" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/5ec32d23-62db-4617-8613-afbaa6d25acf-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:11.190333+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "5401872a-8f2a-4690-8e35-4ae5db7a08a6" ;
+    ns1:generatedAtTime "2023-03-28T08:14:11.190333"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/5f3ca94a-2169-4601-aa21-b1b8af72dec2-cHVybDpBZ2VudA/2023-03-28T08:14:12.190547> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "cnhjs@ybjkb.be" ;
+            ns2:telephone "0393398992" ] ;
+    dct:Agent.naam "Ag. Maritieme Dienstverlening en Kust" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/5f3ca94a-2169-4601-aa21-b1b8af72dec2-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:12.190547+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "b4363d94-1d07-4cb4-baa3-eef514418cc5" ;
+    ns1:generatedAtTime "2023-03-28T08:14:12.190547"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/60367c05-0fd1-4200-9e95-d222df0f9744-cHVybDpBZ2VudA/2023-03-28T08:14:13.190766> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "snmnk@etohh.be" ;
+            ns2:telephone "0932759571" ] ;
+    dct:Agent.naam "LP EEKLO KAPRIJKE ST-LAUREINS" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/60367c05-0fd1-4200-9e95-d222df0f9744-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:13.190766+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "3ea6b6b4-5f23-4af7-a530-9bb3f159fe9f" ;
+    ns1:generatedAtTime "2023-03-28T08:14:13.190766"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/61a5157f-06fc-4745-ba63-0e80a708ee7d-cHVybDpBZ2VudA/2023-03-28T08:14:14.190984> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "nrezm@yostm.be" ;
+            ns2:telephone "0136936158" ] ;
+    dct:Agent.naam "WOV districtwerking" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/61a5157f-06fc-4745-ba63-0e80a708ee7d-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:14.190984+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "3f1b81d7-440b-4791-ac5f-ed91ad2e3491" ;
+    ns1:generatedAtTime "2023-03-28T08:14:14.190984"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/61f3aa0a-2491-4f0b-b68b-c74dcae9305d-cHVybDpBZ2VudA/2023-03-28T08:14:15.191198> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "udwnm@hrgvr.be" ;
+            ns2:telephone "0522682684" ] ;
+    dct:Agent.naam "LP IEPER" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/61f3aa0a-2491-4f0b-b68b-c74dcae9305d-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:15.191198+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "e0bf8712-7961-4e3f-a60d-4b0f659e746d" ;
+    ns1:generatedAtTime "2023-03-28T08:14:15.191198"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/621d4ed4-b6e6-4db6-977b-e47ae65c5aa5-cHVybDpBZ2VudA/2023-03-28T08:14:16.191410> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "sbpiw@bcfjw.be" ;
+            ns2:telephone "0683293865" ] ;
+    dct:Agent.naam "W&Z" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/621d4ed4-b6e6-4db6-977b-e47ae65c5aa5-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:16.191410+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "783ba162-ae03-427a-82d8-2d93771406c7" ;
+    ns1:generatedAtTime "2023-03-28T08:14:16.191410"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/635e537f-b640-471b-8a99-fbd054854965-cHVybDpBZ2VudA/2023-03-28T08:14:17.191667> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "rqpfq@xchwa.be" ;
+            ns2:telephone "0964095646" ] ;
+    dct:Agent.naam "PVE OVL" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/635e537f-b640-471b-8a99-fbd054854965-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:17.191667+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "945c7979-fc81-40e6-92d4-cc50825462ed" ;
+    ns1:generatedAtTime "2023-03-28T08:14:17.191667"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/63668fc4-7990-4c57-9a39-afbb23a5d75c-cHVybDpBZ2VudA/2023-03-28T08:14:18.191887> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "wgnyz@pqriq.be" ;
+            ns2:telephone "0740867390" ] ;
+    dct:Agent.naam "WWV_PIT" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/63668fc4-7990-4c57-9a39-afbb23a5d75c-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:18.191887+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "07ba883c-9f1f-43c9-b4f3-8f0aafdd17ea" ;
+    ns1:generatedAtTime "2023-03-28T08:14:18.191887"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/64b77fff-1c77-4dcf-b304-c84a2e05c180-cHVybDpBZ2VudA/2023-03-28T08:14:19.192103> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "dnafw@ipoan.be" ;
+            ns2:telephone "0758605801" ] ;
+    dct:Agent.naam "LP KRUIBEKE TEMSE" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/64b77fff-1c77-4dcf-b304-c84a2e05c180-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:19.192103+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "a8587acb-0d07-4770-b8be-701f00b54d32" ;
+    ns1:generatedAtTime "2023-03-28T08:14:19.192103"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/6563547a-180c-4714-99f8-3128ffe53191-cHVybDpBZ2VudA/2023-03-28T08:14:20.192320> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "ufppd@qollq.be" ;
+            ns2:telephone "0953619006" ] ;
+    dct:Agent.naam "WATERWEGEN EN ZEEKANAAL NV" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/6563547a-180c-4714-99f8-3128ffe53191-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:20.192320+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "5457e995-ee04-44af-9c01-7fa01e2c70f1" ;
+    ns1:generatedAtTime "2023-03-28T08:14:20.192320"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/665df1af-3833-497f-a5a2-56ad0f96b637-cHVybDpBZ2VudA/2023-03-28T08:14:21.192533> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "fquby@vzxoi.be" ;
+            ns2:telephone "0599912501" ] ;
+    dct:Agent.naam "AWV_EW_LB" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/665df1af-3833-497f-a5a2-56ad0f96b637-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:21.192533+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "1ee3e92b-7d06-4909-89a2-9abffab390a6" ;
+    ns1:generatedAtTime "2023-03-28T08:14:21.192533"^^xsd:dateTime .
+
+<https://data.awvvlaanderen.be/id/asset/66a6c755-4921-49c0-bfec-e9207f368ecc-cHVybDpBZ2VudA/2023-03-28T08:14:22.192748> a dct:Agent ;
+    dct:Agent.contactinfo [ ns2:email "zkipn@dwbss.be" ;
+            ns2:telephone "0412177765" ] ;
+    dct:Agent.naam "PZ BRASSCHAAT" ;
+    dct:isVersionOf <https://data.awvvlaanderen.be/id/asset/66a6c755-4921-49c0-bfec-e9207f368ecc-cHVybDpBZ2VudA> ;
+    prov:generatedAtTime "2023-03-28T08:14:22.192748+00:00"^^xsd:dateTime ;
+    ns3:Agent.voId "ffe70b95-ada4-4c94-9345-142dc5213656" ;
+    ns1:generatedAtTime "2023-03-28T08:14:22.192748"^^xsd:dateTime .
+
