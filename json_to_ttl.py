@@ -39,7 +39,7 @@ if __name__ == '__main__':
             'http://purl.org/dc/terms/Agent.contactinfo'
             contact_node = BNode()
             g.add((URIRef(agent.id), URIRef('http://purl.org/dc/terms/Agent.contactinfo'), contact_node, h))
-            random_email = ''.join(random.choices(string.ascii_lowercase, k=5)) + '@' + ''.join(random.choices(string.ascii_lowercase, k=5)) + '.com'
+            random_email = ''.join(random.choices(string.ascii_lowercase, k=5)) + '@' + ''.join(random.choices(string.ascii_lowercase, k=5)) + '.be'
             g.add((contact_node, URIRef('http://schema.org/email'), Literal(random_email), h))
             random_phone = '0' + ''.join(random.choices(string.digits, k=9))
             g.add((contact_node, URIRef('http://schema.org/telephone'), Literal(random_phone), h))
@@ -48,6 +48,7 @@ if __name__ == '__main__':
         g.bind('purl', 'http://purl.org/dc/terms/')
         g.bind('prov', 'https://www.w3.org/TR/prov-o/#')
         g.bind('asset', 'https://data.awvvlaanderen.be/id/asset/')
+        g.bind('schema', 'http://schema.org/')
 
         g.serialize(destination=Path('agents_full.nq'), format='nquads')
         g.serialize(destination=Path('agents_full.trig'), format='trig')

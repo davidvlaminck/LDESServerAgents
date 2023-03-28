@@ -1,0 +1,5413 @@
+{
+    "@context": "https://smartdata.dev-vlaanderen.be/base/gemeente/context",
+    "@id": "https://smartdata.dev-vlaanderen.be/base/gemeente",
+    "@type": "EventStream",
+    "shape": "https://smartdata.dev-vlaanderen.be/base/gemeente/shape",
+    "timestampPath": "prov:generatedAtTime",
+    "versionOfPath": "dct:isVersionOf",
+    "view":
+    {
+        "@id": "https://smartdata.dev-vlaanderen.be/base/gemeente/?generatedAtTime=2021-09-07T15:44:05.975Z",
+        "@type": "Node",
+        "tree:relation":
+        [
+            {
+                "@type": "tree:GreaterThanRelation",
+                "tree:node": "https://smartdata.dev-vlaanderen.be/base/gemeente/?generatedAtTime=2021-09-07T15:44:13.609Z",
+                "tree:path": "prov:generatedAtTime",
+                "tree:value": "2021-09-07T15:44:13.609Z"
+            }
+        ]
+    },
+    "tree:member":
+[
+{
+    "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/23100/2021-09-07T15:44:05.975Z",
+    "isVersionOf": "https://data.vlaanderen.be/id/gemeente/23100",
+    "generatedAtTime": "2021-09-07T15:44:05.975Z",
+    "created": "2002-08-13T16:33:18+02:00",
+    "eventName": "MunicipalityWasNamed",
+    "@type": "Gemeente",
+    "gemeentenaam":
+    [
+        {
+            "@value": "Linkebeek",
+            "@language": "fr"
+        }
+    ],
+    "officieleTaal":
+    [
+        "nl"
+    ],
+    "faciliteitenTaal":
+    [
+        "fr"
+    ],
+    "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+},
+{
+    "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/23100/2021-09-07T15:44:06.302Z",
+    "isVersionOf": "https://data.vlaanderen.be/id/gemeente/23100",
+    "generatedAtTime": "2021-09-07T15:44:06.302Z",
+    "created": "2002-08-13T16:33:18+02:00",
+    "eventName": "MunicipalityWasNamed",
+    "@type": "Gemeente",
+    "gemeentenaam":
+    [
+        {
+            "@value": "Linkebeek",
+            "@language": "nl"
+        },
+        {
+            "@value": "Linkebeek",
+            "@language": "fr"
+        }
+    ],
+    "officieleTaal":
+    [
+        "nl"
+    ],
+    "faciliteitenTaal":
+    [
+        "fr"
+    ],
+    "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+},
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/37015/2021-09-07T15:44:06.330Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/37015",
+            "generatedAtTime": "2021-09-07T15:44:06.330Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Tielt",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11001/2021-09-07T15:44:06.351Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11001",
+            "generatedAtTime": "2021-09-07T15:44:06.351Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Aartselaar",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/13025/2021-09-07T15:44:06.378Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/13025",
+            "generatedAtTime": "2021-09-07T15:44:06.378Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Mol",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/25122/2021-09-07T15:44:06.407Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/25122",
+            "generatedAtTime": "2021-09-07T15:44:06.407Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Ramillies",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/37017/2021-09-07T15:44:06.427Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/37017",
+            "generatedAtTime": "2021-09-07T15:44:06.427Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Wielsbeke",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/25121/2021-09-07T15:44:06.459Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/25121",
+            "generatedAtTime": "2021-09-07T15:44:06.459Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Ottignies-Louvain-la-Neuve",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/37018/2021-09-07T15:44:06.494Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/37018",
+            "generatedAtTime": "2021-09-07T15:44:06.494Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Wingene",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/56001/2021-09-07T15:44:06.525Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/56001",
+            "generatedAtTime": "2021-09-07T15:44:06.525Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Anderlues",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/55050/2021-09-07T15:44:06.555Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/55050",
+            "generatedAtTime": "2021-09-07T15:44:06.555Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Ecaussinnes",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/45057/2021-09-07T15:44:06.585Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/45057",
+            "generatedAtTime": "2021-09-07T15:44:06.585Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Zingem",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/25124/2021-09-07T15:44:06.613Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/25124",
+            "generatedAtTime": "2021-09-07T15:44:06.613Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Walhain",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/23101/2021-09-07T15:44:06.644Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/23101",
+            "generatedAtTime": "2021-09-07T15:44:06.644Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Rhode-Saint-Genèse",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/45057/2021-09-07T15:44:06.684Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/45057",
+            "generatedAtTime": "2021-09-07T15:44:06.684Z",
+            "created": "2019-01-01T07:10:04+01:00",
+            "eventName": "MunicipalityWasRetired",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Zingem",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/gehistoreerd"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/56011/2021-09-07T15:44:06.712Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/56011",
+            "generatedAtTime": "2021-09-07T15:44:06.712Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Binche",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/23101/2021-09-07T15:44:06.760Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/23101",
+            "generatedAtTime": "2021-09-07T15:44:06.760Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Sint-Genesius-Rode",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Rhode-Saint-Genèse",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/23103/2021-09-07T15:44:06.790Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/23103",
+            "generatedAtTime": "2021-09-07T15:44:06.790Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Wezembeek-Oppem",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/25123/2021-09-07T15:44:06.811Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/25123",
+            "generatedAtTime": "2021-09-07T15:44:06.811Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Rebecq",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/23103/2021-09-07T15:44:06.837Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/23103",
+            "generatedAtTime": "2021-09-07T15:44:06.837Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Wezembeek-Oppem",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Wezembeek-Oppem",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11002/2021-09-07T15:44:06.868Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11002",
+            "generatedAtTime": "2021-09-07T15:44:06.868Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Antwerpen",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/45059/2021-09-07T15:44:06.907Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/45059",
+            "generatedAtTime": "2021-09-07T15:44:06.907Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Brakel",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/56005/2021-09-07T15:44:06.938Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/56005",
+            "generatedAtTime": "2021-09-07T15:44:06.938Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Beaumont",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/37020/2021-09-07T15:44:06.976Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/37020",
+            "generatedAtTime": "2021-09-07T15:44:06.976Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Ardooie",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/56022/2021-09-07T15:44:06.997Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/56022",
+            "generatedAtTime": "2021-09-07T15:44:06.997Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Erquelinnes",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/45060/2021-09-07T15:44:07.016Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/45060",
+            "generatedAtTime": "2021-09-07T15:44:07.016Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Kluisbergen",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11002/2021-09-07T15:44:07.045Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11002",
+            "generatedAtTime": "2021-09-07T15:44:07.045Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Anvers",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Antwerpen",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/13031/2021-09-07T15:44:07.075Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/13031",
+            "generatedAtTime": "2021-09-07T15:44:07.075Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Oud-Turnhout",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/31003/2021-09-07T15:44:07.095Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/31003",
+            "generatedAtTime": "2021-09-07T15:44:07.095Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Beernem",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11004/2021-09-07T15:44:07.134Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11004",
+            "generatedAtTime": "2021-09-07T15:44:07.134Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Boechout",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/23105/2021-09-07T15:44:07.169Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/23105",
+            "generatedAtTime": "2021-09-07T15:44:07.169Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Affligem",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/23104/2021-09-07T15:44:07.189Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/23104",
+            "generatedAtTime": "2021-09-07T15:44:07.189Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Lennik",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/56016/2021-09-07T15:44:07.220Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/56016",
+            "generatedAtTime": "2021-09-07T15:44:07.220Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Chimay",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11002/2021-09-07T15:44:07.271Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11002",
+            "generatedAtTime": "2021-09-07T15:44:07.271Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Antwerpen",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Anvers",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Antwerpen",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11005/2021-09-07T15:44:07.335Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11005",
+            "generatedAtTime": "2021-09-07T15:44:07.335Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Boom",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/13029/2021-09-07T15:44:07.362Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/13029",
+            "generatedAtTime": "2021-09-07T15:44:07.362Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Olen",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/23102/2021-09-07T15:44:07.397Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/23102",
+            "generatedAtTime": "2021-09-07T15:44:07.397Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Wemmel",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/23102/2021-09-07T15:44:07.420Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/23102",
+            "generatedAtTime": "2021-09-07T15:44:07.420Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Wemmel",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Wemmel",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/31004/2021-09-07T15:44:07.447Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/31004",
+            "generatedAtTime": "2021-09-07T15:44:07.447Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Blankenberge",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/62100/2021-09-07T15:44:07.456Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/62100",
+            "generatedAtTime": "2021-09-07T15:44:07.456Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Sprimont",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/13035/2021-09-07T15:44:07.476Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/13035",
+            "generatedAtTime": "2021-09-07T15:44:07.476Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Ravels",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/38002/2021-09-07T15:44:07.488Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/38002",
+            "generatedAtTime": "2021-09-07T15:44:07.488Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Alveringem",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/56044/2021-09-07T15:44:07.507Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/56044",
+            "generatedAtTime": "2021-09-07T15:44:07.507Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Lobbes",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11008/2021-09-07T15:44:07.518Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11008",
+            "generatedAtTime": "2021-09-07T15:44:07.518Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Brasschaat",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/62108/2021-09-07T15:44:07.538Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/62108",
+            "generatedAtTime": "2021-09-07T15:44:07.538Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Visé",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/84029/2021-09-07T15:44:07.548Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/84029",
+            "generatedAtTime": "2021-09-07T15:44:07.548Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Herbeumont",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/62108/2021-09-07T15:44:07.557Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/62108",
+            "generatedAtTime": "2021-09-07T15:44:07.557Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Wezet",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Visé",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/45062/2021-09-07T15:44:07.577Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/45062",
+            "generatedAtTime": "2021-09-07T15:44:07.577Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Horebeke",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/62118/2021-09-07T15:44:07.586Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/62118",
+            "generatedAtTime": "2021-09-07T15:44:07.586Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Grâce-Hollogne",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/84016/2021-09-07T15:44:07.604Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/84016",
+            "generatedAtTime": "2021-09-07T15:44:07.604Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Daverdisse",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/38008/2021-09-07T15:44:07.615Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/38008",
+            "generatedAtTime": "2021-09-07T15:44:07.615Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "De Panne",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/31006/2021-09-07T15:44:07.625Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/31006",
+            "generatedAtTime": "2021-09-07T15:44:07.625Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Damme",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/38008/2021-09-07T15:44:07.637Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/38008",
+            "generatedAtTime": "2021-09-07T15:44:07.637Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "La Panne",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "De Panne",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/38008/2021-09-07T15:44:07.665Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/38008",
+            "generatedAtTime": "2021-09-07T15:44:07.665Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "De Panne",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "La Panne",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "De Panne",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/24007/2021-09-07T15:44:07.676Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/24007",
+            "generatedAtTime": "2021-09-07T15:44:07.676Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Begijnendijk",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/24001/2021-09-07T15:44:07.685Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/24001",
+            "generatedAtTime": "2021-09-07T15:44:07.685Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Aarschot",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/45061/2021-09-07T15:44:07.704Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/45061",
+            "generatedAtTime": "2021-09-07T15:44:07.704Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Wortegem-Petegem",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/31005/2021-09-07T15:44:07.732Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/31005",
+            "generatedAtTime": "2021-09-07T15:44:07.732Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Brügge",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/13036/2021-09-07T15:44:07.744Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/13036",
+            "generatedAtTime": "2021-09-07T15:44:07.744Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Retie",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/31005/2021-09-07T15:44:07.761Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/31005",
+            "generatedAtTime": "2021-09-07T15:44:07.761Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Bruges",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Brügge",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/71037/2021-09-07T15:44:07.771Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/71037",
+            "generatedAtTime": "2021-09-07T15:44:07.771Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Lummen",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/56049/2021-09-07T15:44:07.783Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/56049",
+            "generatedAtTime": "2021-09-07T15:44:07.783Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Merbes-le-Château",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/71045/2021-09-07T15:44:07.793Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/71045",
+            "generatedAtTime": "2021-09-07T15:44:07.793Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Nieuwerkerken",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/31005/2021-09-07T15:44:07.810Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/31005",
+            "generatedAtTime": "2021-09-07T15:44:07.810Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Brugge",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Bruges",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Brügge",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/56029/2021-09-07T15:44:07.822Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/56029",
+            "generatedAtTime": "2021-09-07T15:44:07.822Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Froidchapelle",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11007/2021-09-07T15:44:07.841Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11007",
+            "generatedAtTime": "2021-09-07T15:44:07.841Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Borsbeek",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/71047/2021-09-07T15:44:07.850Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/71047",
+            "generatedAtTime": "2021-09-07T15:44:07.850Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Opglabbeek",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/24008/2021-09-07T15:44:07.862Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/24008",
+            "generatedAtTime": "2021-09-07T15:44:07.862Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Bekkevoort",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/38016/2021-09-07T15:44:07.879Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/38016",
+            "generatedAtTime": "2021-09-07T15:44:07.879Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Nieuwpoort",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/38016/2021-09-07T15:44:07.891Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/38016",
+            "generatedAtTime": "2021-09-07T15:44:07.891Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Nieuport",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Nieuwpoort",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/38016/2021-09-07T15:44:07.908Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/38016",
+            "generatedAtTime": "2021-09-07T15:44:07.908Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Nieuwpoort",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Nieuport",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Nieuwpoort",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/38014/2021-09-07T15:44:07.918Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/38014",
+            "generatedAtTime": "2021-09-07T15:44:07.918Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Koksijde",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/13037/2021-09-07T15:44:07.930Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/13037",
+            "generatedAtTime": "2021-09-07T15:44:07.930Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Rijkevorsel",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/62120/2021-09-07T15:44:07.948Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/62120",
+            "generatedAtTime": "2021-09-07T15:44:07.948Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Flémalle",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/71047/2021-09-07T15:44:07.959Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/71047",
+            "generatedAtTime": "2021-09-07T15:44:07.959Z",
+            "created": "2019-01-01T07:12:47+01:00",
+            "eventName": "MunicipalityWasRetired",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Opglabbeek",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/gehistoreerd"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11009/2021-09-07T15:44:07.980Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11009",
+            "generatedAtTime": "2021-09-07T15:44:07.980Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Brecht",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/56051/2021-09-07T15:44:07.995Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/56051",
+            "generatedAtTime": "2021-09-07T15:44:07.995Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Momignies",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/45063/2021-09-07T15:44:08.007Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/45063",
+            "generatedAtTime": "2021-09-07T15:44:08.007Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Lierde",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/62119/2021-09-07T15:44:08.017Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/62119",
+            "generatedAtTime": "2021-09-07T15:44:08.017Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Blégny",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/71053/2021-09-07T15:44:08.027Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/71053",
+            "generatedAtTime": "2021-09-07T15:44:08.027Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Sint-Truiden",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/84033/2021-09-07T15:44:08.038Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/84033",
+            "generatedAtTime": "2021-09-07T15:44:08.038Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Léglise",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11013/2021-09-07T15:44:08.048Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11013",
+            "generatedAtTime": "2021-09-07T15:44:08.048Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Edegem",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/31012/2021-09-07T15:44:08.086Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/31012",
+            "generatedAtTime": "2021-09-07T15:44:08.086Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Jabbeke",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/71053/2021-09-07T15:44:08.106Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/71053",
+            "generatedAtTime": "2021-09-07T15:44:08.106Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Saint-Trond",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Sint-Truiden",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/13040/2021-09-07T15:44:08.116Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/13040",
+            "generatedAtTime": "2021-09-07T15:44:08.116Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Turnhout",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/56078/2021-09-07T15:44:08.124Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/56078",
+            "generatedAtTime": "2021-09-07T15:44:08.124Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Thuin",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/71053/2021-09-07T15:44:08.136Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/71053",
+            "generatedAtTime": "2021-09-07T15:44:08.136Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Sint-Truiden",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Saint-Trond",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Sint-Truiden",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/24009/2021-09-07T15:44:08.153Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/24009",
+            "generatedAtTime": "2021-09-07T15:44:08.153Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Bertem",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11016/2021-09-07T15:44:08.164Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11016",
+            "generatedAtTime": "2021-09-07T15:44:08.164Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Essen",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/84035/2021-09-07T15:44:08.184Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/84035",
+            "generatedAtTime": "2021-09-07T15:44:08.184Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Libin",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/31033/2021-09-07T15:44:08.202Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/31033",
+            "generatedAtTime": "2021-09-07T15:44:08.202Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Torhout",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/31022/2021-09-07T15:44:08.215Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/31022",
+            "generatedAtTime": "2021-09-07T15:44:08.215Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Oostkamp",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/84043/2021-09-07T15:44:08.224Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/84043",
+            "generatedAtTime": "2021-09-07T15:44:08.224Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Neufchâteau",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/62122/2021-09-07T15:44:08.242Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/62122",
+            "generatedAtTime": "2021-09-07T15:44:08.242Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Trooz",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/13044/2021-09-07T15:44:08.252Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/13044",
+            "generatedAtTime": "2021-09-07T15:44:08.252Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Vorselaar",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/56085/2021-09-07T15:44:08.270Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/56085",
+            "generatedAtTime": "2021-09-07T15:44:08.270Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Estinnes",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/38025/2021-09-07T15:44:08.281Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/38025",
+            "generatedAtTime": "2021-09-07T15:44:08.281Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Veurne",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/24011/2021-09-07T15:44:08.587Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/24011",
+            "generatedAtTime": "2021-09-07T15:44:08.587Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Bierbeek",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11018/2021-09-07T15:44:08.618Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11018",
+            "generatedAtTime": "2021-09-07T15:44:08.618Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Hemiksem",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/38025/2021-09-07T15:44:08.636Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/38025",
+            "generatedAtTime": "2021-09-07T15:44:08.636Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Furnes",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Veurne",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/38025/2021-09-07T15:44:08.654Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/38025",
+            "generatedAtTime": "2021-09-07T15:44:08.654Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Veurne",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Furnes",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Veurne",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/45064/2021-09-07T15:44:08.673Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/45064",
+            "generatedAtTime": "2021-09-07T15:44:08.673Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Maarkedal",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/62121/2021-09-07T15:44:08.694Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/62121",
+            "generatedAtTime": "2021-09-07T15:44:08.694Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Neupré",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/45065/2021-09-07T15:44:08.714Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/45065",
+            "generatedAtTime": "2021-09-07T15:44:08.714Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Zwalm",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/31040/2021-09-07T15:44:08.725Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/31040",
+            "generatedAtTime": "2021-09-07T15:44:08.725Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Zedelgem",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/56086/2021-09-07T15:44:08.763Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/56086",
+            "generatedAtTime": "2021-09-07T15:44:08.763Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Ham-sur-Heure-Nalinnes",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/13046/2021-09-07T15:44:08.784Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/13046",
+            "generatedAtTime": "2021-09-07T15:44:08.784Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Vosselaar",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63001/2021-09-07T15:44:08.801Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63001",
+            "generatedAtTime": "2021-09-07T15:44:08.801Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Amel",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "de"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63001/2021-09-07T15:44:08.821Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63001",
+            "generatedAtTime": "2021-09-07T15:44:08.821Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Amblève",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Amel",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "de"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/71057/2021-09-07T15:44:08.843Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/71057",
+            "generatedAtTime": "2021-09-07T15:44:08.843Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Tessenderlo",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63001/2021-09-07T15:44:08.861Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63001",
+            "generatedAtTime": "2021-09-07T15:44:08.861Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Amel",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Amblève",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Amel",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "de"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/24014/2021-09-07T15:44:08.879Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/24014",
+            "generatedAtTime": "2021-09-07T15:44:08.879Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Boortmeerbeek",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/84050/2021-09-07T15:44:08.893Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/84050",
+            "generatedAtTime": "2021-09-07T15:44:08.893Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Paliseul",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/46003/2021-09-07T15:44:08.911Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/46003",
+            "generatedAtTime": "2021-09-07T15:44:08.911Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Beveren",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/71066/2021-09-07T15:44:08.931Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/71066",
+            "generatedAtTime": "2021-09-07T15:44:08.931Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Zonhoven",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63003/2021-09-07T15:44:08.969Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63003",
+            "generatedAtTime": "2021-09-07T15:44:08.969Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Aubel",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/41002/2021-09-07T15:44:08.988Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/41002",
+            "generatedAtTime": "2021-09-07T15:44:08.988Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Aalst",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11021/2021-09-07T15:44:09.010Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11021",
+            "generatedAtTime": "2021-09-07T15:44:09.010Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Hove",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/31042/2021-09-07T15:44:09.030Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/31042",
+            "generatedAtTime": "2021-09-07T15:44:09.030Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Zuienkerke",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/41002/2021-09-07T15:44:09.050Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/41002",
+            "generatedAtTime": "2021-09-07T15:44:09.050Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Alost",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Aalst",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/24016/2021-09-07T15:44:09.082Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/24016",
+            "generatedAtTime": "2021-09-07T15:44:09.082Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Boutersem",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/41002/2021-09-07T15:44:09.113Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/41002",
+            "generatedAtTime": "2021-09-07T15:44:09.113Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Aalst",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Alost",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Aalst",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/41011/2021-09-07T15:44:09.133Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/41011",
+            "generatedAtTime": "2021-09-07T15:44:09.133Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Denderleeuw",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/31043/2021-09-07T15:44:09.172Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/31043",
+            "generatedAtTime": "2021-09-07T15:44:09.172Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Knokke-Heist",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/84059/2021-09-07T15:44:09.207Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/84059",
+            "generatedAtTime": "2021-09-07T15:44:09.207Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Saint-Hubert",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/71067/2021-09-07T15:44:09.248Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/71067",
+            "generatedAtTime": "2021-09-07T15:44:09.248Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Zutendaal",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11022/2021-09-07T15:44:09.286Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11022",
+            "generatedAtTime": "2021-09-07T15:44:09.286Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Kalmthout",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/84075/2021-09-07T15:44:09.324Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/84075",
+            "generatedAtTime": "2021-09-07T15:44:09.324Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Wellin",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/46013/2021-09-07T15:44:09.343Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/46013",
+            "generatedAtTime": "2021-09-07T15:44:09.343Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Kruibeke",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/13049/2021-09-07T15:44:09.380Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/13049",
+            "generatedAtTime": "2021-09-07T15:44:09.380Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Westerlo",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/56088/2021-09-07T15:44:09.418Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/56088",
+            "generatedAtTime": "2021-09-07T15:44:09.418Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Sivry-Rance",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63004/2021-09-07T15:44:09.439Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63004",
+            "generatedAtTime": "2021-09-07T15:44:09.439Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Baelen",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/84068/2021-09-07T15:44:09.475Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/84068",
+            "generatedAtTime": "2021-09-07T15:44:09.475Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Tellin",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21001/2021-09-07T15:44:09.487Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21001",
+            "generatedAtTime": "2021-09-07T15:44:09.487Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Anderlecht",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/56087/2021-09-07T15:44:09.517Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/56087",
+            "generatedAtTime": "2021-09-07T15:44:09.517Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Morlanwelz",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/13053/2021-09-07T15:44:09.544Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/13053",
+            "generatedAtTime": "2021-09-07T15:44:09.544Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Laakdal",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21001/2021-09-07T15:44:09.582Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21001",
+            "generatedAtTime": "2021-09-07T15:44:09.582Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Anderlecht",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Anderlecht",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63012/2021-09-07T15:44:09.595Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63012",
+            "generatedAtTime": "2021-09-07T15:44:09.595Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Büllingen",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "de"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63012/2021-09-07T15:44:09.612Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63012",
+            "generatedAtTime": "2021-09-07T15:44:09.612Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Bullange",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Büllingen",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "de"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63012/2021-09-07T15:44:09.624Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63012",
+            "generatedAtTime": "2021-09-07T15:44:09.624Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Büllingen",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Bullange",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Büllingen",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "de"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/24028/2021-09-07T15:44:09.634Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/24028",
+            "generatedAtTime": "2021-09-07T15:44:09.634Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Geetbets",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/41018/2021-09-07T15:44:10.486Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/41018",
+            "generatedAtTime": "2021-09-07T15:44:10.486Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Geraardsbergen",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11024/2021-09-07T15:44:10.781Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11024",
+            "generatedAtTime": "2021-09-07T15:44:10.781Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Kontich",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/46020/2021-09-07T15:44:10.811Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/46020",
+            "generatedAtTime": "2021-09-07T15:44:10.811Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Sint-Gillis-Waas",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/57018/2021-09-07T15:44:10.850Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/57018",
+            "generatedAtTime": "2021-09-07T15:44:10.850Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Celles",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21002/2021-09-07T15:44:10.890Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21002",
+            "generatedAtTime": "2021-09-07T15:44:10.890Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Auderghem",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/32006/2021-09-07T15:44:10.936Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/32006",
+            "generatedAtTime": "2021-09-07T15:44:10.936Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Houthulst",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21002/2021-09-07T15:44:10.958Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21002",
+            "generatedAtTime": "2021-09-07T15:44:10.958Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Oudergem",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Auderghem",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/24020/2021-09-07T15:44:10.997Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/24020",
+            "generatedAtTime": "2021-09-07T15:44:10.997Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Diest",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/41018/2021-09-07T15:44:11.054Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/41018",
+            "generatedAtTime": "2021-09-07T15:44:11.054Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Grammont",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Geraardsbergen",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/85007/2021-09-07T15:44:11.094Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/85007",
+            "generatedAtTime": "2021-09-07T15:44:11.094Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Chiny",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/46014/2021-09-07T15:44:11.115Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/46014",
+            "generatedAtTime": "2021-09-07T15:44:11.115Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Lokeren",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/71070/2021-09-07T15:44:11.131Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/71070",
+            "generatedAtTime": "2021-09-07T15:44:11.131Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Heusden-Zolder",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/32010/2021-09-07T15:44:11.157Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/32010",
+            "generatedAtTime": "2021-09-07T15:44:11.157Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Koekelare",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11023/2021-09-07T15:44:11.176Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11023",
+            "generatedAtTime": "2021-09-07T15:44:11.176Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Kapellen",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/41018/2021-09-07T15:44:11.205Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/41018",
+            "generatedAtTime": "2021-09-07T15:44:11.205Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Geraardsbergen",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Grammont",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Geraardsbergen",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/32003/2021-09-07T15:44:11.224Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/32003",
+            "generatedAtTime": "2021-09-07T15:44:11.224Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Diksmuide",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/71069/2021-09-07T15:44:11.261Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/71069",
+            "generatedAtTime": "2021-09-07T15:44:11.261Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Ham",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/32003/2021-09-07T15:44:11.301Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/32003",
+            "generatedAtTime": "2021-09-07T15:44:11.301Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Dixmude",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Diksmuide",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/41024/2021-09-07T15:44:11.310Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/41024",
+            "generatedAtTime": "2021-09-07T15:44:11.310Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Haaltert",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/24033/2021-09-07T15:44:11.349Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/24033",
+            "generatedAtTime": "2021-09-07T15:44:11.349Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Haacht",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/32003/2021-09-07T15:44:11.372Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/32003",
+            "generatedAtTime": "2021-09-07T15:44:11.372Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Diksmuide",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Dixmude",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Diksmuide",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/57003/2021-09-07T15:44:11.399Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/57003",
+            "generatedAtTime": "2021-09-07T15:44:11.399Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Antoing",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63013/2021-09-07T15:44:11.420Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63013",
+            "generatedAtTime": "2021-09-07T15:44:11.420Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Bütgenbach",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "de"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63013/2021-09-07T15:44:11.446Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63013",
+            "generatedAtTime": "2021-09-07T15:44:11.446Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Butgenbach",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Bütgenbach",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "de"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/85009/2021-09-07T15:44:11.459Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/85009",
+            "generatedAtTime": "2021-09-07T15:44:11.459Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Etalle",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/84077/2021-09-07T15:44:11.469Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/84077",
+            "generatedAtTime": "2021-09-07T15:44:11.469Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Libramont-Chevigny",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63013/2021-09-07T15:44:11.486Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63013",
+            "generatedAtTime": "2021-09-07T15:44:11.486Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Bütgenbach",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Butgenbach",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Bütgenbach",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "de"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/46021/2021-09-07T15:44:11.535Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/46021",
+            "generatedAtTime": "2021-09-07T15:44:11.535Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Sint-Niklaas",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/46021/2021-09-07T15:44:11.555Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/46021",
+            "generatedAtTime": "2021-09-07T15:44:11.555Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Saint-Nicolas",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Sint-Niklaas",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/57027/2021-09-07T15:44:11.574Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/57027",
+            "generatedAtTime": "2021-09-07T15:44:11.574Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Estaimpuis",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/46021/2021-09-07T15:44:11.603Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/46021",
+            "generatedAtTime": "2021-09-07T15:44:11.603Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Sint-Niklaas",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Saint-Nicolas",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Sint-Niklaas",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11025/2021-09-07T15:44:11.624Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11025",
+            "generatedAtTime": "2021-09-07T15:44:11.624Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Lint",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/32011/2021-09-07T15:44:11.643Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/32011",
+            "generatedAtTime": "2021-09-07T15:44:11.643Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Kortemark",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/72003/2021-09-07T15:44:11.648Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/72003",
+            "generatedAtTime": "2021-09-07T15:44:11.648Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Bocholt",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21003/2021-09-07T15:44:11.662Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21003",
+            "generatedAtTime": "2021-09-07T15:44:11.662Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Berchem-Sainte-Agathe",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21004/2021-09-07T15:44:11.672Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21004",
+            "generatedAtTime": "2021-09-07T15:44:11.672Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Bruxelles",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21003/2021-09-07T15:44:11.681Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21003",
+            "generatedAtTime": "2021-09-07T15:44:11.681Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Sint-Agatha-Berchem",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Berchem-Sainte-Agathe",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/24038/2021-09-07T15:44:11.687Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/24038",
+            "generatedAtTime": "2021-09-07T15:44:11.687Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Herent",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21004/2021-09-07T15:44:11.697Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21004",
+            "generatedAtTime": "2021-09-07T15:44:11.697Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Brussel",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Bruxelles",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/85011/2021-09-07T15:44:11.712Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/85011",
+            "generatedAtTime": "2021-09-07T15:44:11.712Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Florenville",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/46024/2021-09-07T15:44:11.725Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/46024",
+            "generatedAtTime": "2021-09-07T15:44:11.725Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Stekene",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/41034/2021-09-07T15:44:11.739Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/41034",
+            "generatedAtTime": "2021-09-07T15:44:11.739Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Lede",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/72004/2021-09-07T15:44:11.760Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/72004",
+            "generatedAtTime": "2021-09-07T15:44:11.760Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Bree",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11029/2021-09-07T15:44:11.777Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11029",
+            "generatedAtTime": "2021-09-07T15:44:11.777Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Mortsel",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/24041/2021-09-07T15:44:11.789Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/24041",
+            "generatedAtTime": "2021-09-07T15:44:11.789Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Hoegaarden",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63023/2021-09-07T15:44:11.812Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63023",
+            "generatedAtTime": "2021-09-07T15:44:11.812Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Eupen",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "de"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/57062/2021-09-07T15:44:11.817Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/57062",
+            "generatedAtTime": "2021-09-07T15:44:11.817Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Pecq",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/41027/2021-09-07T15:44:11.826Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/41027",
+            "generatedAtTime": "2021-09-07T15:44:11.826Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Herzele",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63023/2021-09-07T15:44:11.833Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63023",
+            "generatedAtTime": "2021-09-07T15:44:11.833Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Eupen",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Eupen",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "de"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/32030/2021-09-07T15:44:11.851Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/32030",
+            "generatedAtTime": "2021-09-07T15:44:11.851Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Lo-Reninge",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63020/2021-09-07T15:44:11.854Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63020",
+            "generatedAtTime": "2021-09-07T15:44:11.854Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Dison",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21005/2021-09-07T15:44:11.872Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21005",
+            "generatedAtTime": "2021-09-07T15:44:11.872Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Etterbeek",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11030/2021-09-07T15:44:11.890Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11030",
+            "generatedAtTime": "2021-09-07T15:44:11.890Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Niel",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21005/2021-09-07T15:44:11.899Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21005",
+            "generatedAtTime": "2021-09-07T15:44:11.899Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Etterbeek",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Etterbeek",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/57064/2021-09-07T15:44:11.910Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/57064",
+            "generatedAtTime": "2021-09-07T15:44:11.910Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Péruwelz",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/24043/2021-09-07T15:44:11.920Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/24043",
+            "generatedAtTime": "2021-09-07T15:44:11.920Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Holsbeek",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/46025/2021-09-07T15:44:11.928Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/46025",
+            "generatedAtTime": "2021-09-07T15:44:11.928Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Temse",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/46025/2021-09-07T15:44:11.932Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/46025",
+            "generatedAtTime": "2021-09-07T15:44:11.932Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Tamise",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Temse",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/85024/2021-09-07T15:44:11.940Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/85024",
+            "generatedAtTime": "2021-09-07T15:44:11.940Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Meix-devant-Virton",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/46025/2021-09-07T15:44:11.951Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/46025",
+            "generatedAtTime": "2021-09-07T15:44:11.951Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Temse",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Tamise",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Temse",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11035/2021-09-07T15:44:11.968Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11035",
+            "generatedAtTime": "2021-09-07T15:44:11.968Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Ranst",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63035/2021-09-07T15:44:11.972Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63035",
+            "generatedAtTime": "2021-09-07T15:44:11.972Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Herve",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63038/2021-09-07T15:44:12.278Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63038",
+            "generatedAtTime": "2021-09-07T15:44:12.278Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Jalhay",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/41048/2021-09-07T15:44:12.306Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/41048",
+            "generatedAtTime": "2021-09-07T15:44:12.306Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Ninove",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/72020/2021-09-07T15:44:12.327Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/72020",
+            "generatedAtTime": "2021-09-07T15:44:12.327Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Lommel",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/72018/2021-09-07T15:44:12.356Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/72018",
+            "generatedAtTime": "2021-09-07T15:44:12.356Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Kinrooi",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/51004/2021-09-07T15:44:12.414Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/51004",
+            "generatedAtTime": "2021-09-07T15:44:12.414Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Ath",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/51004/2021-09-07T15:44:12.434Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/51004",
+            "generatedAtTime": "2021-09-07T15:44:12.434Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Aat",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Ath",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21006/2021-09-07T15:44:12.451Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21006",
+            "generatedAtTime": "2021-09-07T15:44:12.451Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Evere",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/33016/2021-09-07T15:44:12.462Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/33016",
+            "generatedAtTime": "2021-09-07T15:44:12.462Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Messines",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21006/2021-09-07T15:44:12.471Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21006",
+            "generatedAtTime": "2021-09-07T15:44:12.471Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Evere",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Evere",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/33016/2021-09-07T15:44:12.480Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/33016",
+            "generatedAtTime": "2021-09-07T15:44:12.480Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Mesen",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Messines",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63040/2021-09-07T15:44:12.496Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63040",
+            "generatedAtTime": "2021-09-07T15:44:12.496Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Kelmis",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "de"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/24045/2021-09-07T15:44:12.505Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/24045",
+            "generatedAtTime": "2021-09-07T15:44:12.505Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Huldenberg",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/33011/2021-09-07T15:44:12.513Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/33011",
+            "generatedAtTime": "2021-09-07T15:44:12.513Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Ieper",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63040/2021-09-07T15:44:12.524Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63040",
+            "generatedAtTime": "2021-09-07T15:44:12.524Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "La Calamine",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Kelmis",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "de"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/41063/2021-09-07T15:44:12.541Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/41063",
+            "generatedAtTime": "2021-09-07T15:44:12.541Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Sint-Lievens-Houtem",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63040/2021-09-07T15:44:12.552Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63040",
+            "generatedAtTime": "2021-09-07T15:44:12.552Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Kelmis",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "La Calamine",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Kelmis",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "de"
+            ],
+            "faciliteitenTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/51008/2021-09-07T15:44:12.568Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/51008",
+            "generatedAtTime": "2021-09-07T15:44:12.568Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Beloeil",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/33011/2021-09-07T15:44:12.581Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/33011",
+            "generatedAtTime": "2021-09-07T15:44:12.581Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Ypres",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Ieper",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11037/2021-09-07T15:44:12.598Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11037",
+            "generatedAtTime": "2021-09-07T15:44:12.598Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Rumst",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21007/2021-09-07T15:44:12.903Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21007",
+            "generatedAtTime": "2021-09-07T15:44:12.903Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Forest",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/72021/2021-09-07T15:44:12.931Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/72021",
+            "generatedAtTime": "2021-09-07T15:44:12.931Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Maaseik",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/85034/2021-09-07T15:44:12.944Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/85034",
+            "generatedAtTime": "2021-09-07T15:44:12.944Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Saint-Léger",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21007/2021-09-07T15:44:12.962Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21007",
+            "generatedAtTime": "2021-09-07T15:44:12.962Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Vorst",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Forest",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/33011/2021-09-07T15:44:12.980Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/33011",
+            "generatedAtTime": "2021-09-07T15:44:12.980Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Ieper",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Ypres",
+                    "@language": "fr"
+                },
+                {
+                    "@value": "Ieper",
+                    "@language": "de"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21008/2021-09-07T15:44:13.001Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21008",
+            "generatedAtTime": "2021-09-07T15:44:13.001Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Ganshoren",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/57081/2021-09-07T15:44:13.021Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/57081",
+            "generatedAtTime": "2021-09-07T15:44:13.021Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Tournai",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21008/2021-09-07T15:44:13.040Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21008",
+            "generatedAtTime": "2021-09-07T15:44:13.040Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Ganshoren",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Ganshoren",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/57072/2021-09-07T15:44:13.051Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/57072",
+            "generatedAtTime": "2021-09-07T15:44:13.051Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Rumes",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/57081/2021-09-07T15:44:13.096Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/57081",
+            "generatedAtTime": "2021-09-07T15:44:13.096Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Doornik",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Tournai",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/24048/2021-09-07T15:44:13.126Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/24048",
+            "generatedAtTime": "2021-09-07T15:44:13.126Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Keerbergen",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/85026/2021-09-07T15:44:13.149Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/85026",
+            "generatedAtTime": "2021-09-07T15:44:13.149Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Musson",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/51009/2021-09-07T15:44:13.175Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/51009",
+            "generatedAtTime": "2021-09-07T15:44:13.175Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Bernissart",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/85039/2021-09-07T15:44:13.196Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/85039",
+            "generatedAtTime": "2021-09-07T15:44:13.196Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Tintigny",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21009/2021-09-07T15:44:13.227Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21009",
+            "generatedAtTime": "2021-09-07T15:44:13.227Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Ixelles",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63046/2021-09-07T15:44:13.244Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63046",
+            "generatedAtTime": "2021-09-07T15:44:13.244Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Limbourg",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/72025/2021-09-07T15:44:13.256Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/72025",
+            "generatedAtTime": "2021-09-07T15:44:13.256Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Neerpelt",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21009/2021-09-07T15:44:13.274Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21009",
+            "generatedAtTime": "2021-09-07T15:44:13.274Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Elsene",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Ixelles",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/63046/2021-09-07T15:44:13.286Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/63046",
+            "generatedAtTime": "2021-09-07T15:44:13.286Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Limburg",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Limbourg",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/72025/2021-09-07T15:44:13.316Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/72025",
+            "generatedAtTime": "2021-09-07T15:44:13.316Z",
+            "created": "2019-01-01T07:09:00+01:00",
+            "eventName": "MunicipalityWasRetired",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Neerpelt",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/gehistoreerd"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/33029/2021-09-07T15:44:13.365Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/33029",
+            "generatedAtTime": "2021-09-07T15:44:13.365Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Wervik",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/41082/2021-09-07T15:44:13.411Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/41082",
+            "generatedAtTime": "2021-09-07T15:44:13.411Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Erpe-Mere",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21010/2021-09-07T15:44:13.449Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21010",
+            "generatedAtTime": "2021-09-07T15:44:13.449Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Jette",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/11038/2021-09-07T15:44:13.479Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/11038",
+            "generatedAtTime": "2021-09-07T15:44:13.479Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Schelle",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/21010/2021-09-07T15:44:13.501Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/21010",
+            "generatedAtTime": "2021-09-07T15:44:13.501Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Jette",
+                    "@language": "nl"
+                },
+                {
+                    "@value": "Jette",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl",
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/41081/2021-09-07T15:44:13.520Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/41081",
+            "generatedAtTime": "2021-09-07T15:44:13.520Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Zottegem",
+                    "@language": "nl"
+                }
+            ],
+            "officieleTaal":
+            [
+                "nl"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/51012/2021-09-07T15:44:13.539Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/51012",
+            "generatedAtTime": "2021-09-07T15:44:13.539Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Brugelette",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        },
+        {
+            "@id": "https://smartdata.dev-vlaanderen.be/base/id/gemeente/51014/2021-09-07T15:44:13.566Z",
+            "isVersionOf": "https://data.vlaanderen.be/id/gemeente/51014",
+            "generatedAtTime": "2021-09-07T15:44:13.566Z",
+            "created": "2002-08-13T16:33:18+02:00",
+            "eventName": "MunicipalityWasNamed",
+            "@type": "Gemeente",
+            "gemeentenaam":
+            [
+                {
+                    "@value": "Chièvres",
+                    "@language": "fr"
+                }
+            ],
+            "officieleTaal":
+            [
+                "fr"
+            ],
+            "status": "https://data.vlaanderen.be/id/concept/gemeentestatus/inGebruik"
+        }
+    ]
+}

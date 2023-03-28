@@ -1,0 +1,60 @@
+<https://data.vlaanderen.be/id/straatnaam/22389> <http://www.w3.org/ns/adms#identifier> _:Bf874a66d4e277db992ebb55ca499032a .
+<https://data.vlaanderen.be/id/straatnaam/22389> <http://www.w3.org/2000/01/rdf-schema#label> "Aquaductstraat"@nl .
+<https://data.vlaanderen.be/id/straatnaam/22389> <http://www.w3.org/ns/prov#wasAttributedTo> <https://data.vlaanderen.be/id/gemeente/21013> .
+<https://data.vlaanderen.be/id/straatnaam/22389> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.vlaanderen.be/ns/adres#Straatnaam> .
+<https://data.vlaanderen.be/id/straatnaam/22389> <https://data.vlaanderen.be/ns/adres#Straatnaam.status> <https://data.vlaanderen.be/id/concept/straatnaamstatus/inGebruik> .
+<https://data.vlaanderen.be/id/straatnaam/23600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.vlaanderen.be/ns/adres#Straatnaam> .
+<https://data.vlaanderen.be/id/straatnaam/23600> <http://www.w3.org/ns/adms#identifier> _:B52422887dd26ba099b87a7cf8e46aba9 .
+<https://data.vlaanderen.be/id/straatnaam/23600> <https://data.vlaanderen.be/ns/adres#Straatnaam.status> <https://data.vlaanderen.be/id/concept/straatnaamstatus/inGebruik> .
+<https://data.vlaanderen.be/id/straatnaam/23600> <http://www.w3.org/ns/prov#wasAttributedTo> <https://data.vlaanderen.be/id/gemeente/21018> .
+<https://data.vlaanderen.be/id/straatnaam/23600> <http://www.w3.org/2000/01/rdf-schema#label> "Aquilonlaan"@nl .
+<https://data.vlaanderen.be/id/straatnaam/40514> <http://www.w3.org/ns/prov#wasAttributedTo> <https://data.vlaanderen.be/id/gemeente/25072> .
+<https://data.vlaanderen.be/id/straatnaam/40514> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.vlaanderen.be/ns/adres#Straatnaam> .
+<https://data.vlaanderen.be/id/straatnaam/40514> <https://data.vlaanderen.be/ns/adres#Straatnaam.status> <https://data.vlaanderen.be/id/concept/straatnaamstatus/inGebruik> .
+<https://data.vlaanderen.be/id/straatnaam/40514> <http://www.w3.org/ns/adms#identifier> _:Bb91ec8cbd1ffdb19ac6d1e028afd2214 .
+<https://data.vlaanderen.be/id/straatnaam/40514> <http://www.w3.org/2000/01/rdf-schema#label> "Rue de l'Aquilon"@nl .
+<https://data.vlaanderen.be/id/straatnaam/41523> <http://www.w3.org/ns/adms#identifier> _:Bfb5e60eab33e1a8f9e2c93c821d8bbcb .
+<https://data.vlaanderen.be/id/straatnaam/41523> <http://www.w3.org/ns/prov#wasAttributedTo> <https://data.vlaanderen.be/id/gemeente/25110> .
+<https://data.vlaanderen.be/id/straatnaam/41523> <http://www.w3.org/2000/01/rdf-schema#label> "Allée de l'Aqueduc"@nl .
+<https://data.vlaanderen.be/id/straatnaam/41523> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.vlaanderen.be/ns/adres#Straatnaam> .
+<https://data.vlaanderen.be/id/straatnaam/41523> <https://data.vlaanderen.be/ns/adres#Straatnaam.status> <https://data.vlaanderen.be/id/concept/straatnaamstatus/inGebruik> .
+<https://data.vlaanderen.be/id/straatnaam/41925> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.vlaanderen.be/ns/adres#Straatnaam> .
+<https://data.vlaanderen.be/id/straatnaam/41925> <https://data.vlaanderen.be/ns/adres#Straatnaam.status> <https://data.vlaanderen.be/id/concept/straatnaamstatus/inGebruik> .
+<https://data.vlaanderen.be/id/straatnaam/41925> <http://www.w3.org/ns/prov#wasAttributedTo> <https://data.vlaanderen.be/id/gemeente/25112> .
+<https://data.vlaanderen.be/id/straatnaam/41925> <http://www.w3.org/2000/01/rdf-schema#label> "Avenue de l'Aquilon"@nl .
+<https://data.vlaanderen.be/id/straatnaam/41925> <http://www.w3.org/ns/adms#identifier> _:B511aaa69922b9e0fbf2177cc6b2bdbb3 .
+<https://data.vlaanderen.be/id/straatnaam/42985> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.vlaanderen.be/ns/adres#Straatnaam> .
+<https://data.vlaanderen.be/id/straatnaam/42985> <http://www.w3.org/2000/01/rdf-schema#label> "Rue d'Aquinot"@nl .
+<https://data.vlaanderen.be/id/straatnaam/42985> <https://data.vlaanderen.be/ns/adres#Straatnaam.status> <https://data.vlaanderen.be/id/concept/straatnaamstatus/inGebruik> .
+<https://data.vlaanderen.be/id/straatnaam/42985> <http://www.w3.org/ns/prov#wasAttributedTo> <https://data.vlaanderen.be/id/gemeente/25119> .
+<https://data.vlaanderen.be/id/straatnaam/42985> <http://www.w3.org/ns/adms#identifier> _:B112ba9d24bf615f6c2e5e9599f2dc56e .
+<https://data.vlaanderen.be/id/straatnaam/43886> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.vlaanderen.be/ns/adres#Straatnaam> .
+<https://data.vlaanderen.be/id/straatnaam/43886> <https://data.vlaanderen.be/ns/adres#Straatnaam.status> <https://data.vlaanderen.be/id/concept/straatnaamstatus/inGebruik> .
+<https://data.vlaanderen.be/id/straatnaam/43886> <http://www.w3.org/ns/prov#wasAttributedTo> <https://data.vlaanderen.be/id/gemeente/25121> .
+<https://data.vlaanderen.be/id/straatnaam/43886> <http://www.w3.org/2000/01/rdf-schema#label> "Sentier des Aquarelles"@nl .
+<https://data.vlaanderen.be/id/straatnaam/43886> <http://www.w3.org/ns/adms#identifier> _:Bc9b975e905357dff705024aba512de4e .
+<https://data.vlaanderen.be/id/straatnaam/88341> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.vlaanderen.be/ns/adres#Straatnaam> .
+<https://data.vlaanderen.be/id/straatnaam/88341> <https://data.vlaanderen.be/ns/adres#Straatnaam.status> <https://data.vlaanderen.be/id/concept/straatnaamstatus/inGebruik> .
+<https://data.vlaanderen.be/id/straatnaam/88341> <http://www.w3.org/ns/adms#identifier> _:B21030ad615a3bbd8e5890bacd6a54b54 .
+<https://data.vlaanderen.be/id/straatnaam/88341> <http://www.w3.org/2000/01/rdf-schema#label> "Rue Aquin"@nl .
+<https://data.vlaanderen.be/id/straatnaam/88341> <http://www.w3.org/ns/prov#wasAttributedTo> <https://data.vlaanderen.be/id/gemeente/53084> .
+<https://data.vlaanderen.be/id/straatnaam/105767> <http://www.w3.org/ns/adms#identifier> _:B98674ba572c4254cf7cf05a0128d60df .
+<https://data.vlaanderen.be/id/straatnaam/105767> <http://www.w3.org/2000/01/rdf-schema#label> "Rue de l'Aqueduc"@nl .
+<https://data.vlaanderen.be/id/straatnaam/105767> <http://www.w3.org/ns/prov#wasAttributedTo> <https://data.vlaanderen.be/id/gemeente/62118> .
+<https://data.vlaanderen.be/id/straatnaam/105767> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.vlaanderen.be/ns/adres#Straatnaam> .
+<https://data.vlaanderen.be/id/straatnaam/105767> <https://data.vlaanderen.be/ns/adres#Straatnaam.status> <https://data.vlaanderen.be/id/concept/straatnaamstatus/inGebruik> .
+<https://data.vlaanderen.be/id/straatnaam/166516> <http://www.w3.org/ns/adms#identifier> _:Be28f73b662bc4261e9c4eb11788fdf2e .
+<https://data.vlaanderen.be/id/straatnaam/166516> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.vlaanderen.be/ns/adres#Straatnaam> .
+<https://data.vlaanderen.be/id/straatnaam/166516> <https://data.vlaanderen.be/ns/adres#Straatnaam.status> <https://data.vlaanderen.be/id/concept/straatnaamstatus/inGebruik> .
+<https://data.vlaanderen.be/id/straatnaam/166516> <http://www.w3.org/2000/01/rdf-schema#label> "Aquapad"@nl .
+<https://data.vlaanderen.be/id/straatnaam/166516> <http://www.w3.org/ns/prov#wasAttributedTo> <https://data.vlaanderen.be/id/gemeente/33011> .
+<https://data.vlaanderen.be/id/straatnaam/166517> <http://www.w3.org/2000/01/rdf-schema#label> "Aquastraat"@nl .
+<https://data.vlaanderen.be/id/straatnaam/166517> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.vlaanderen.be/ns/adres#Straatnaam> .
+<https://data.vlaanderen.be/id/straatnaam/166517> <https://data.vlaanderen.be/ns/adres#Straatnaam.status> <https://data.vlaanderen.be/id/concept/straatnaamstatus/inGebruik> .
+<https://data.vlaanderen.be/id/straatnaam/166517> <http://www.w3.org/ns/prov#wasAttributedTo> <https://data.vlaanderen.be/id/gemeente/33011> .
+<https://data.vlaanderen.be/id/straatnaam/166517> <http://www.w3.org/ns/adms#identifier> _:B27fc65a6e1d36a1b8e5c5eb4eb04f86c .
+<https://data.vlaanderen.be/id/straatnaam/207563> <http://www.w3.org/2000/01/rdf-schema#label> "Rue d'Aquitaine"@nl .
+<https://data.vlaanderen.be/id/straatnaam/207563> <http://www.w3.org/ns/prov#wasAttributedTo> <https://data.vlaanderen.be/id/gemeente/62108> .
+<https://data.vlaanderen.be/id/straatnaam/207563> <http://www.w3.org/ns/adms#identifier> _:Ba69aa6b6f43ffe03e4ae3915c3d9a9ca .
+<https://data.vlaanderen.be/id/straatnaam/207563> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.vlaanderen.be/ns/adres#Straatnaam> .
+<https://data.vlaanderen.be/id/straatnaam/207563> <https://data.vlaanderen.be/ns/adres#Straatnaam.status> <https://data.vlaanderen.be/id/concept/straatnaamstatus/inGebruik> .
