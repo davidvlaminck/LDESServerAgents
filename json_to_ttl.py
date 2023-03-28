@@ -23,10 +23,12 @@ class DataGraph(BaseModel):
 if __name__ == '__main__':
     with open('/home/davidlinux/Documents/AWV/agents_full.json') as f:
         datax = json.load(f)
-        agent_data = DataGraph(**datax)
+        agent_data = DataGraph(**datax).graph
         g = Dataset()
-        for index, agent in enumerate(agent_data.graph):
-            h = URIRef(agent.id)
+        for index, agent in enumerate(sorted(list(agent_data), key=lambda x: x.vo_id)):
+            timestamp = datetime.utcnow() + timedelta(seconds=index)
+            timestamp_str = str(timestamp).replace(' ', 'T')
+            h = URIRef(f'{agent.id}/{timestamp_str}')
             g.add((URIRef(agent.id), RDF.type, URIRef('http://purl.org/dc/terms/Agent'), h))
             g.add((URIRef(agent.id),
                    URIRef('https://tz.data.wegenenverkeer.be/ns/implementatieelement#Agent.voId'),
@@ -35,7 +37,7 @@ if __name__ == '__main__':
                    h))
             g.add((URIRef(agent.id), URIRef('http://purl.org/dc/terms/Agent.naam'), Literal(agent.naam), h))
             g.add((URIRef(agent.id), URIRef('https://www.w3.org/TR/prov-o/#generatedAtTime'),
-                   Literal(datetime.utcnow() + timedelta(seconds=index)), h))
+                   Literal(timestamp), h))
             'http://purl.org/dc/terms/Agent.contactinfo'
             contact_node = BNode()
             g.add((URIRef(agent.id), URIRef('http://purl.org/dc/terms/Agent.contactinfo'), contact_node, h))
