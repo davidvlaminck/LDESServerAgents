@@ -20,6 +20,8 @@ class DataGraph(BaseModel):
     graph: List[Agent] = Field(alias="@graph")
 
 
+# calamus?
+
 if __name__ == '__main__':
     with open('/home/davidlinux/Documents/AWV/agents_full.json') as f:
         datax = json.load(f)
